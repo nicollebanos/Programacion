@@ -31,3 +31,9 @@ dividir = numA / numB
 print(f"la división dio {dividir} exitosamente")
 
 #Calculando que número es mayor
+if numA < numB: 
+    print("El número mayor es:", numB)
+elif numA > numB:
+    print("El número mayor es:", numA)
+elif numA == numB
+    print("Los números son iguales")
