@@ -23,4 +23,9 @@ print(f"la resta dio {resta} exitosamente")
 # Mutiplicación de datos
 print("-"*5, "multiplicación", "-"*5)
 multiplicar = numA * numB
-print(f"la Multiplicación dio {multiplicar} exitosamente")
+print(f"la multiplicación dio {multiplicar} exitosamente")
+
+# División de datos
+print("-"*5, "división", "-"*5)
+dividir = numA / numB
+print(f"la división dio {dividir} exitosamente")
