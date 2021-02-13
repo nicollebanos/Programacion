@@ -5,10 +5,10 @@ print(Saludo)
 
 # Entrega de datos
 print("-"*5, "número", "-"*5)
-numeroA = input("Digita un número entero: ")
-numeroB = input("Digite otro número entero: ")
-numA = int (numeroA)
-numB = int (numeroB)
+numeroA = input("Digita un número: ")
+numeroB = input("Digite otro número: ")
+numA = float (numeroA)
+numB = float (numeroB)
 
 # Suma de datos
 print("-"*5, "suma", "-"*5)
@@ -29,3 +29,5 @@ print(f"la multiplicación dio {multiplicar} exitosamente")
 print("-"*5, "división", "-"*5)
 dividir = numA / numB
 print(f"la división dio {dividir} exitosamente")
+
+#Calculando que número es mayor
