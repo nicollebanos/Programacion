@@ -31,6 +31,7 @@ dividir = numA / numB
 print(f"la división dio {dividir} exitosamente")
 
 #Calculando que número es mayor
+print("-"*5, "orden números", "-"*5)
 if numA < numB: 
     print("El número mayor es:", numB)
 elif numA > numB:
