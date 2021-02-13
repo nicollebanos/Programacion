@@ -7,5 +7,10 @@ print(Saludo)
 print("-"*5, "número", "-"*5)
 numeroA = input("Digita un número: ")
 numeroB = input("Digite otro número: ")
-print(f"los números dados son {numeroA} y {numeroB}")
+numA = int (numeroA)
+numB = int (numeroB)
 
+# Suma de datos
+print("-"*5, "suma", "-"*5)
+sumar = numA + numB
+print(f"la suma dio {sumar} exitosamente")
