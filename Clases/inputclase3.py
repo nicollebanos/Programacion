@@ -10,8 +10,8 @@ print(f"{nombre} en 5 años tendras: {edad+5}")
 input("Te sientes vieja?: ")
 if True : 
     print("Me encanta tu sinceridad")
-elif False :
-    print("Pues si, ACEPTALO")
+else False: 
+    print("Pues si lo eres, ACEPTALO")
 
 print("Otra pregunta")
 estatura = float(input(PREGUNTA_ESTATURA))
