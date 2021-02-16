@@ -10,7 +10,7 @@ print(f"{nombre} en 5 años tendras: {edad+5}")
 input("Te sientes vieja?: ")
 if True : 
     print("Me encanta tu sinceridad")
-else False: 
+elif: 
     print("Pues si lo eres, ACEPTALO")
 
 print("Otra pregunta")
