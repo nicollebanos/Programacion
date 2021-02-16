@@ -9,4 +9,4 @@ print(MENSAJE_BIENVE)
 peso = float(input(PREGUNTA_PESO))
 estatura = float (input(PREGUNTA_ESTATURA))
 imc = peso/(estatura**2)
-print
+print(MENSAJE_DESPEDIDA, imc)
