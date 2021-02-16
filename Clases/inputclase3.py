@@ -1,7 +1,17 @@
 #----------------- constatnte -----------------#
 PREGUNTA_NOMBRE = "Como te llamas?: "
 PREGUNTA_EDAD = "Cuantos años tienes?: "
+PREGUNTA_ESTATURA = "Cuanto mides?: "
 #----------------- entrada de códigos -----------------#
-
 nombre = input(PREGUNTA_NOMBRE)
-print(f"un gusto en conocerte {nombre}")
+print(f"Un gusto en conocerte {nombre}")
+edad = int(input(PREGUNTA_EDAD))
+print(f"{nombre} en 5 años tendras: {edad+5}")
+input("Te sientes vieja?: ")
+if True : 
+    print("Pues es la verdad")
+elif False :
+    print("Supongamos")
+
+Estatura = float(input(PREGUNTA_ESTATURA))
+
