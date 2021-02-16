@@ -9,9 +9,10 @@ edad = int(input(PREGUNTA_EDAD))
 print(f"{nombre} en 5 años tendras: {edad+5}")
 input("Te sientes vieja?: ")
 if True : 
-    print("Pues es la verdad")
+    print("Me encanta tu sinceridad")
 elif False :
-    print("Supongamos")
+    print("Pues si, ACEPTALO")
 
-Estatura = float(input(PREGUNTA_ESTATURA))
+print("Otra pregunta")
+estatura = float(input(PREGUNTA_ESTATURA))
 
