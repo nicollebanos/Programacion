@@ -1,13 +1,26 @@
 saludo = "Bienvenid@"
 # Generenado saludo
 PREGUNTA_NOMBRE = "Como te llamas?: "
+PREGUNTA_APELLIDO = "Para saber un poco más de ti antes de empezar, como te apellidas?: "
 print("-"*5, "saludo", "-"*5)
 nombre = input(PREGUNTA_NOMBRE)
-print(f"{saludo} {nombre} a nuestra base de datos matematicos")
+apellido = input(PREGUNTA_APELLIDO)
+print(f"{saludo} {nombre} {apellido} a nuestra base de datos matematicos")
 
 # constantes
 NUMERO1 = "Por favor digita un número: "
 NUMERO2 = "Para continuar, digita otro número: "
+PREGUNTA_EDAD = "Cuantos años tienes?: "
+MENOR = "Usa este progrma como modo de ayuda, estan en tu étapa de aprendizaje"
+MAYOR = "Wou eres algo mayor para esto pero continua sin problema, estamos para ayudar"
+
+# Edad intro
+print("-"*5, "edad", "-"*5)
+edad = int(input(PREGUNTA_EDAD))
+if edad < 13: 
+    print(MENOR)
+elif edad > 13:
+    print(MAYOR)
 
 # Entrega de datos
 print("-"*5, "número", "-"*5)
@@ -48,4 +61,4 @@ elif numA == numB:
 # Generenado despedida
 despedida = "Muchas gracias, vuelva pronto"
 print("-"*5, "despedida", "-"*5)
-print(f"{despedida} {nombre}")
+print(f"{despedida} {nombre} {apellido}")
