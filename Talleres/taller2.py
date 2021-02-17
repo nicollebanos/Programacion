@@ -19,7 +19,7 @@ numB = float (numeroB)
 # Suma de datos
 print("-"*5, "suma", "-"*5)
 sumar = numA + numB
-print(f"{suma} es la suma entre ambos números")
+print(f"{sumar} es la suma entre ambos números")
 
 # Resta de datos
 print("-"*5, "resta", "-"*5)
