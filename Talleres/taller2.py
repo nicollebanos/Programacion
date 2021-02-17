@@ -11,7 +11,7 @@ print(f"{saludo} {nombre} {apellido} a nuestra base de datos matematicos")
 NUMERO1 = "Por favor digita un número: "
 NUMERO2 = "Para continuar, digita otro número: "
 PREGUNTA_EDAD = "Cuantos años tienes?: "
-MENOR = "Usa este progrma como modo de ayuda, estan en tu étapa de aprendizaje"
+MENOR = "Usa este programa como modo de ayuda, estan en tu étapa de aprendizaje"
 MAYOR = "Wou eres algo mayor para esto pero continua sin problema, estamos para ayudar"
 
 # Edad intro
