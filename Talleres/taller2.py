@@ -45,3 +45,7 @@ elif numA > numB:
 elif numA == numB:
     print("Los números son iguales")
 
+# Generenado despedida
+despedida = "Muchas gracias, vuelva pronto"
+print("-"*5, "despedida", "-"*5)
+print(f"{despedida} {nombre}")
