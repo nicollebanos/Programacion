@@ -5,7 +5,7 @@ print("-"*5, "saludo", "-"*5)
 nombre = input(PREGUNTA_NOMBRE)
 print(f"{saludo} {nombre} a nuestra base de datos matematicos")
 
-# variables
+# constantes
 NUMERO1 = "Por favor digita un número: "
 NUMERO2 = "Para continuar, digita otro número: "
 
