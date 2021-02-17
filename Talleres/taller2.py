@@ -5,10 +5,14 @@ print("-"*5, "saludo", "-"*5)
 nombre = input(PREGUNTA_NOMBRE)
 print(f"{saludo} {nombre}")
 
+# variables
+NUMERO1 = "Digita un número: "
+NUMERO2 = "Digita otro número: "
+
 # Entrega de datos
 print("-"*5, "número", "-"*5)
-numeroA = input("Digita un número: ")
-numeroB = input("Digite otro número: ")
+numeroA = input(NUMERO1)
+numeroB = input(NUMERO2)
 numA = float (numeroA)
 numB = float (numeroB)
 
