@@ -3,11 +3,11 @@ saludo = "Bienvenid@"
 PREGUNTA_NOMBRE = "Como te llamas?: "
 print("-"*5, "saludo", "-"*5)
 nombre = input(PREGUNTA_NOMBRE)
-print(f"{saludo} {nombre}")
+print(f"{saludo} {nombre} a nuestra base de datos matematicos")
 
 # variables
-NUMERO1 = "Digita un número: "
-NUMERO2 = "Digita otro número: "
+NUMERO1 = "Por favor gigita un número: "
+NUMERO2 = "Para continuar, digita otro número: "
 
 # Entrega de datos
 print("-"*5, "número", "-"*5)
