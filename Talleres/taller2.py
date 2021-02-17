@@ -19,22 +19,22 @@ numB = float (numeroB)
 # Suma de datos
 print("-"*5, "suma", "-"*5)
 sumar = numA + numB
-print(f"la suma dio {sumar} exitosamente")
+print(f"{suma} es la suma entre ambos números")
 
 # Resta de datos
 print("-"*5, "resta", "-"*5)
 resta = numA - numB
-print(f"la resta dio {resta} exitosamente")
+print(f"{resta} es la resta entre ambos números")
 
 # Mutiplicación de datos
 print("-"*5, "multiplicación", "-"*5)
 multiplicar = numA * numB
-print(f"la multiplicación dio {multiplicar} exitosamente")
+print(f"{multiplicar} es la multiplicación entre ambos números")
 
 # División de datos
 print("-"*5, "división", "-"*5)
 dividir = numA / numB
-print(f"la división dio {dividir} exitosamente")
+print(f"{dividir} es la división entre ambos números")
 
 #Calculando que número es mayor
 print("-"*5, "orden números", "-"*5)
