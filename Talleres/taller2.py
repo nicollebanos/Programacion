@@ -13,7 +13,9 @@ NUMERO2 = "Para continuar, digita otro número: "
 PREGUNTA_EDAD = "Cuantos años tienes?: "
 MENOR = "Usa este programa como modo de ayuda, estan en tu étapa de aprendizaje"
 MAYOR = "Wou eres algo mayor para esto pero continua sin problema, estamos para ayudar"
-PREGUNTA_FINAL = "Que tal te parecio la ayuda?: "
+PREGUNTA_FINAL = "Que tal te parecio la ayuda? Buena? Mala? "
+BUENA = "Gracias por el apoyo"
+MALA = "podemos mejorar, gracias"
 
 # Edad intro
 print("-"*5, "edad", "-"*5)
@@ -62,6 +64,10 @@ elif numA == numB:
 # Pregunta final
 print("-"*5, "opnión", "-"*5)
 pregunta = input(PREGUNTA_FINAL)
+if "buena": 
+    print(BUENA)
+elif "mala"
+    print(MALA)
 
 # Generenado despedida
 despedida = "Muchas gracias, vuelva pronto"
