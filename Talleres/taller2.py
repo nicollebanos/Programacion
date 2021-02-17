@@ -6,7 +6,7 @@ nombre = input(PREGUNTA_NOMBRE)
 print(f"{saludo} {nombre} a nuestra base de datos matematicos")
 
 # variables
-NUMERO1 = "Por favor gigita un número: "
+NUMERO1 = "Por favor digita un número: "
 NUMERO2 = "Para continuar, digita otro número: "
 
 # Entrega de datos
