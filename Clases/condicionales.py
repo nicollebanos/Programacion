@@ -4,7 +4,7 @@ PREGUNTA_NUMEROA = "Ingrese un número A: "
 PREGUNTA_NUMEROB = "Ingrese un número B: "
 MENSAJE_MAYOR = "El número A es mayor que B"
 MENSAJE_MENOR = "El número A es menor que B"
-MENSAJE_IGUAL = "El número A es igual a B"
+MENSAJE_IGUAL = "A y B son iguales"
 
 #--------- Entrada de código -----------#
 print(MENSAJE_BIENVENIDA)
