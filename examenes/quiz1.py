@@ -7,10 +7,10 @@ SOBRE_LIM_OPTIMO_TRI = "Tus niveles de triglicéridos estan en niveles sobre el 
 VALOR_ALTO_TRI = "Tus niveles de trigliceridos estan alto"
 VALOR_MUY_ALTO_TRI = "Tus niveles de trigiceridos estan muy altos"
 PREGUNTA_NIVEL_HOMO = "Ingrese el valor de homocistteína que tienes: "
-VALOR_OPTIMO_HOMO = "Tus niveles de homocistteína estas en niveles optimos"
-SOBRE_LIM_OPTIMO_HOMO = "Tus niveles de homocistteína estan en niveles sobre el límite optimo"
-VALOR_ALTO_HOMO = "Tus niveles de homocistteína estan alto"
-VALOR_MUY_ALTO_HOMO = "Tus niveles de homocistteína estan muy altos"
+VALOR_OPTIMO_HOMO = "Tus niveles de homocisteína estas en niveles optimos"
+SOBRE_LIM_OPTIMO_HOMO = "Tus niveles de homocisteína estan en niveles sobre el límite optimo"
+VALOR_ALTO_HOMO = "Tus niveles de homocisteína estan alto"
+VALOR_MUY_ALTO_HOMO = "Tus niveles de homocisteína estan muy altos"
 
 
 
@@ -28,7 +28,6 @@ isAlto = valor >= 200 and valor <= 499
 isMuyAlto = valor > 500
 
 #Código
-print("---------------Dato---------------------")
 valorhomo = int(input(PREGUNTA_NIVEL_HOMO))
 isOptimoHomo = valorhomo >= 12 and valorhomo <= 15
 isLimOptimoHomo = valorhomo > 15 and valorhomo <= 30
@@ -46,7 +45,6 @@ else:
     print(VALOR_MUY_ALTO_TRI)
 
 
-print("---------------respuesta---------------------")
 if (isOptimoHomo):
     print(VALOR_OPTIMO_HOMO)
 elif (isLimOptimoHomo):
