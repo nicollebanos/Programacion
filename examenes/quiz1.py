@@ -11,7 +11,7 @@ VALOR_OPTIMO_HOMO = "Tus niveles de homocisteína estas en niveles optimos"
 SOBRE_LIM_OPTIMO_HOMO = "Tus niveles de homocisteína estan en niveles sobre el límite optimo"
 VALOR_ALTO_HOMO = "Tus niveles de homocisteína estan alto"
 VALOR_MUY_ALTO_HOMO = "Tus niveles de homocisteína estan muy altos"
-MENSAJE_SALIDA = "Espero que las respues hayan sido de su agrado, cuidate"
+MENSAJE_SALIDA = "Espero que las respuestas hayan sido de tu agrado, cuidate"
 
 
 #Bienvenida
