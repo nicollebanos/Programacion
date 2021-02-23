@@ -29,9 +29,9 @@ isMuyAlto = valor > 500
 
 #Código
 valorhomo = float(input(PREGUNTA_NIVEL_HOMO))
-isOptimoHomo = valorhomo >= 12 and valorhomo <= 15
-isLimOptimoHomo = valorhomo > 15 and valorhomo <= 30
-isAltoHomo = valorhomo > 30 and valorhomo <= 100
+isOptimoHomo = valorhomo >= 12 and valorhomo < 15
+isLimOptimoHomo = valorhomo >= 15 and valorhomo < 30
+isAltoHomo = valorhomo >=30 and valorhomo < 100
 isMuyAltoHomo = valorhomo > 100
 
 print("---------------respuesta---------------------")
