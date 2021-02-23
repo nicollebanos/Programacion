@@ -1,6 +1,6 @@
 
 
-# #Constantes
+#Constantes
 PREGUNTA_NOMBRE = "Cómo te llamas?: "
 MENSAJE_BIENVENIDA = "Bienvenid@"
 MENSAJE_SALIDA = "Muchas gracias, vuelve pronto"
