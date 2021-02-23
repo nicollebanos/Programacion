@@ -9,6 +9,7 @@ NUMERO2 = "Para continuar, digite otro número: "
 print("---------------Bienvenida---------------------")
 nombre = input(PREGUNTA_NOMBRE) 
 print(MENSAJE_BIENVENIDA, nombre)
+
 print("----------------números----------------------")
 # Datos
 numeroA = input(NUMERO1)
