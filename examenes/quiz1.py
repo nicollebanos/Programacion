@@ -18,18 +18,21 @@ print("---------------Dato---------------------")
 valor = int(input(PREGUNTA_NIVEL_TRI))
 isOptimo = valor < 150
 isLimOptimo = valor > 150 and valor < 199
-isAlto = edad >= 26 and edad < 60
-isMayorAdulto = edad >= 60
+isAlto = valor > 200 and edad < 499
+isMuyAlto = edad > 500
 
 print("---------------respuesta---------------------")
-if (isMenorEdad):
-    print(MENSAJE_MENOR_EDAD)
-elif (isJoven):
-    print(MENSAJE_JOVEN)
-elif (isAdulto):
-    print(MENSAJE_ADULTO)
+if (isOptimo):
+    print(VALOR_OPTIMO_TRI)
+elif (isLimOptimo):
+    print(SOBRE_LIM_OPTIMO_TRI)
+elif (isAlto):
+    print(VALOR_ALTO_TRI)
 else:
-    print(MENSAJE_ADULTO_MAYOR)
+    print(VALOR_MUY_ALTO_TRI)
+
+
+
 
 print("---------------despedida---------------------")
 print(MENSAJE_SALIDA, nombre)
