@@ -9,10 +9,10 @@ PREGUNTA_NOMBRE = "Cúal es tu nombre?: "
 MENSAJE_BIENVENIDA = "Buenas, espero que te encuentres muy bien"
 PREGUNTA_EDAD = "Cuantos años tienes?: "
 MENSAJE_MENOR_EDAD = "Aún eres menor de edad, espera algunos años más"
-MENSAJE_JOVEN = "La juventud este en ti, gozala"
-MENSAJE_ADULTO = "En la etapa con más resposabilidades, la adultez"
+MENSAJE_JOVEN = "La juventud esta en ti, gozala"
+MENSAJE_ADULTO = "Es la etapa con más resposabilidades, la adultez"
 MENSAJE_ADULTO_MAYOR = "Ojo con el covid, eres adulro mayos"
-MENSAJE_SALIDA = "Muchras gracias, vuelva pronto"
+MENSAJE_SALIDA = "Muchas gracias, cuidate"
 
 #Bienvenida
 print("---------------Bienvenida---------------------")
@@ -37,4 +37,5 @@ elif (isAdulto):
 else:
     print(MENSAJE_ADULTO_MAYOR)
 
-print(MENSAJE_SALIDA)
+print("---------------despedida---------------------")
+print(MENSAJE_SALIDA, nombre)

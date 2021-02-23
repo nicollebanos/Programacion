@@ -2,7 +2,7 @@
 
 #Constantes
 MENSAJE_BIENVENIDA = "Buenas, espero que te encuentres muy bien"
-MENSAJE_SALIDA = "Muchras gracias, vuelva pronto"
+MENSAJE_SALIDA = "Muchas gracias, vuelva pronto"
 PREGUNTA_NOMBRE = "Cúal es tu nombre?: "
 NUMERO1 = "Digite un número: "
 NUMERO2 = "Para continuar, digite otro número: "
@@ -26,4 +26,5 @@ elif (numA < numB):
 else:
     print("Ambos números son iguales:", numA)
 
+print("---------------despedida---------------------")
 print(MENSAJE_SALIDA)
