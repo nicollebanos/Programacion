@@ -17,6 +17,7 @@ numeroB = input(NUMERO2)
 numA = float(numeroA)
 numB = float(numeroB)
 
+print("----------------resultado----------------------")
 #Códigos
 if (numA > numB):
     print("El número ", numA, " es mayor que ", numB)
