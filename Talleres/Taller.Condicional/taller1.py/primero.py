@@ -1,4 +1,3 @@
-# Dos números - mayor - iguales
 
 #Constantes
 MENSAJE_BIENVENIDA = "Buenas, espero que te encuentres muy bien"

@@ -1,8 +1,3 @@
-#PUNTO2. Pida la edad del usuario y muestre en pantalla la siguiente información:
-#Si tiene menos de 18 años diga que es menor de edad
-#Desde 18 hasta 25 Es Joven
-#Desde 26 hasta 60 Adulto
-# Mayor a 60 años es Adulto mayor
 
 # #Constantes
 PREGUNTA_NOMBRE = "Cúal es tu nombre?: "
