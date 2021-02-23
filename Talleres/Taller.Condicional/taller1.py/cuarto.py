@@ -3,7 +3,7 @@
 # #Constantes
 PREGUNTA_NOMBRE = "Cómo te llamas?: "
 MENSAJE_BIENVENIDA = "Bienvenid@"
-MENSAJE_ADIOS = "Muchas gracias, vuelva pronto"
+MENSAJE_SALIDA = "Muchas gracias, vuelva pronto"
 PREGUNTA_UNO = "Ingrese la distancia en cm: "
 PREGUNTA_DOS = "¿A qué unidad la desea convertir? ¿km, m o mm?:"
 MENSAJE_DISTANCIA = "La distancia es: "
@@ -31,4 +31,5 @@ elif(respuesta_unidad.lower() == "mm"):
 else:
     print( )
 
-print(MENSAJE_ADIOS)
+print("---------------despedida---------------------")
+print(MENSAJE_SALIDA, nombre)
