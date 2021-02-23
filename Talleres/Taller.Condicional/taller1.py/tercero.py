@@ -7,9 +7,10 @@ from datetime import date
 PREGUNTA_NOMBRE = "Cúal es tu nombre?: "
 MENSAJE_BIENVENIDA = "Bienvenid@"
 PREGUNTA_ANOS = "Ingresa un año: "
-MENSAJE_ANOS_FALTANTES = "Faltan {} años para el año que ingresaste"
-MENSAJE_ANOS_PASADOS = "Desde el año actual, han pasado {} años"
-MENSAJE_ANOS_IGUALES = "El año ingresado es igual al año actual"
+MENSAJE_ANOS_FALTANTES = "Aún faltan {} años para llegar a esa fecha en particular"
+MENSAJE_ANOS_PASADOS = "Han pasado {} años desde que fue esa fecha"
+MENSAJE_ANOS_IGUALES = "Es el mismo año en el que nos encontramos"
+MENSAJE_SALIDA = "Espero que haya sido útil, adios"
 
 #Bienvenida
 print("---------------Bienvenida---------------------")
@@ -18,7 +19,7 @@ print(MENSAJE_BIENVENIDA, nombre)
 
 #Datos
 print("---------------dato---------------------")
-anhoUsuario = int(input(PREGUNTA_ANO))
+anhoUsuario = int(input(PREGUNTA_ANOS))
 anhoActual = date.today().year
 
 print("---------------respuesta---------------------")
@@ -31,3 +32,6 @@ elif (anhoActual < anhoUsuario):
     print(MENSAJE_ANOS_FALTANTES.format(restapasados))
 else:
     print(MENSAJE_ANOS_IGUALES)
+
+print("---------------despedida---------------------")
+print(MENSAJE_SALIDA)
