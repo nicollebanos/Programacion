@@ -21,14 +21,14 @@ print(MENSAJE_BIENVENIDA, nombre)
 
 #Código
 print("---------------Dato---------------------")
-valor = int(input(PREGUNTA_NIVEL_TRI))
+valor = float(input(PREGUNTA_NIVEL_TRI))
 isOptimo = valor < 150
 isLimOptimo = valor >= 150 and valor <= 199
 isAlto = valor >= 200 and valor <= 499
 isMuyAlto = valor > 500
 
 #Código
-valorhomo = int(input(PREGUNTA_NIVEL_HOMO))
+valorhomo = float(input(PREGUNTA_NIVEL_HOMO))
 isOptimoHomo = valorhomo >= 12 and valorhomo <= 15
 isLimOptimoHomo = valorhomo > 15 and valorhomo <= 30
 isAltoHomo = valorhomo > 30 and valorhomo <= 100
