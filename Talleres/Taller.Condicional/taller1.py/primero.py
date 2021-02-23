@@ -25,3 +25,5 @@ elif (numA < numB):
     print("El número ", numA, " es menor que ",numB)
 else:
     print("Ambos números son iguales:", numA)
+
+print(MENSAJE_SALIDA)
