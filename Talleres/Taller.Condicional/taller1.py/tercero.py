@@ -1,7 +1,5 @@
 
 from datetime import date
-#PUNT03. Escriba un programa que pida el año actual y un año cualquiera
-# y que escriba cuántos años han pasado desde ese año o cuántos años faltan para llegar a ese año.
 
 #Constantes
 PREGUNTA_NOMBRE = "Cúal es tu nombre?: "
@@ -19,19 +17,19 @@ print(MENSAJE_BIENVENIDA, nombre)
 
 #Datos
 print("---------------dato---------------------")
-anhoUsuario = int(input(PREGUNTA_ANOS))
-anhoActual = date.today().year
+anoUsuario = int(input(PREGUNTA_ANOS))
+anoActual = date.today().year
 
 print("---------------respuesta---------------------")
 #Código
-if (anhoActual > anhoUsuario):
-    resta = anhoActual - anhoUsuario
+if (anoActual > anoUsuario):
+    resta = anoActual - anoUsuario
     print(MENSAJE_ANOS_PASADOS.format(resta))
-elif (anhoActual < anhoUsuario):
-    restapasados = anhoUsuario - anhoActual
+elif (anoActual < anoUsuario):
+    restapasados = anoUsuario - anoActual
     print(MENSAJE_ANOS_FALTANTES.format(restapasados))
 else:
     print(MENSAJE_ANOS_IGUALES)
 
 print("---------------despedida---------------------")
-print(MENSAJE_SALIDA)
+print(MENSAJE_SALIDA, nombre)
