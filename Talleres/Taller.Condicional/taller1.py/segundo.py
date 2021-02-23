@@ -1,5 +1,5 @@
 
-# #Constantes
+#Constantes
 PREGUNTA_NOMBRE = "Cúal es tu nombre?: "
 MENSAJE_BIENVENIDA = "Buenas, espero que te encuentres muy bien"
 PREGUNTA_EDAD = "Cuantos años tienes?: "
