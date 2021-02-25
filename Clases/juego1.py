@@ -9,7 +9,7 @@ PREGUNTA_NUMERO = '''
                     quieras...
                     muchos exitos, ingresa tu número 
 '''
-PREGUNTA_FALLASTE = 'Ahhhhhhhh! fallaste :3, ingresa otro número'
+PREGUNTA_FALLASTE = 'Ahhhhhhhh! fallaste :3, ingresa otro número  '
 MENSAJE_DESPEDIDA = 'Felicidades, ganaste!!!'
 
 #----------------- Entrada al código -----------------#
