@@ -29,4 +29,4 @@ if(vidas > 0):
     print(MENSAJE_GANASTE)
     print(vidas)
 else:
-    print(MENSAJE_PERDISTE)
+    print(MENSAJE_PERDISTE, 'El número era el', numeroOculto)
