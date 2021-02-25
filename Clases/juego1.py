@@ -7,13 +7,17 @@ PREGUNTA_NUMERO = '''
                     que va desde el 1-10, la idea es que
                     lo puedes intentar las veces que 
                     quieras...
-                    muchos exitos, ingresa tu número '''
+                    muchos exitos, ingresa tu número 
+'''
 PREGUNTA_FALLASTE = 'Ahhhhhhhh! fallaste :3, ingresa otro número'
 MENSAJE_DESPEDIDA = 'Felicidades, ganaste!!!'
 
 #----------------- Entrada al código -----------------#
+print('------------ Inicio juego ---------------------')
 numeroOculto = 7
 print(MENSAJE_SALUDO)
 numeroIngresado = int(input(PREGUNTA_NUMERO))
 while(numeroOculto != numeroIngresado) :
-    numeroIngresado = int()
+    numeroIngresado = int(input(PREGUNTA_FALLASTE))
+
+print(MENSAJE_DESPEDIDA)
