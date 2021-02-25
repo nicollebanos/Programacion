@@ -13,4 +13,5 @@ ahorrado = float(input(PREGUNTA_CUANDO_TIENES))
 
 while(valor > ahorrado):
     print(MENSAJE_AHORRO, ahorrado, "Te falta", valor - ahorrado)
-    ahorrado = +1000
+    ahorrado = ahorrado + 1000
+print(valor == ahorrado)
