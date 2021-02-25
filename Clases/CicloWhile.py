@@ -10,4 +10,6 @@ print(MENSAJE_BIENVENIDA)
 valor = float(input(PREGUNTA_VALOR_PC))
 ahorrado = float(input(PREGUNTA_CUANDO_TIENES))
 
-while()
+while(valor >= ahorrado):
+    print(MENSAJE_AHORRO, ahorrado, "Te falta", valor - ahorrado)
+    ahorrado = +1
