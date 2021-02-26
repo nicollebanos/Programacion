@@ -16,16 +16,16 @@ MENSAJE_PERDISTE = 'Perdiste, vuelve a intentarlo!!!'
 #----------------- Entrada al código -----------------#
 print('------------ Inicio juego ---------------------')
 numeroOculto = 7
-vidas = 3
+vidas = 5
 print(MENSAJE_SALUDO)
 numeroIngresado = int(input(PREGUNTA_NUMERO))
 if(numeroIngresado != numeroOculto):
     vidas -=1
 while(numeroOculto != numeroIngresado and vidas > 0) :
-    vidas -=1
     numeroIngresado = int(input(PREGUNTA_FALLASTE))
+    vidas -=1
 
-if(vidas > 0):
+if(vidas > 0 and numeroOculto == numeroIngresado):
     print(MENSAJE_GANASTE)
     print(vidas)
 else:
