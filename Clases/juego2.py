@@ -1,5 +1,5 @@
 
-
+import random
 #----------- Entradas ----------#
 MENSAJE_SALUDO =  '''Bienvenido 
                     a este programa,
@@ -16,3 +16,12 @@ MENSAJE_GANASTE = 'Felicidades, ganaste!!!'
 MENSAJE_PERDISTE = 'Perdiste, vuelve a intentarlo!!!'
 
 #----------------- Entrada al código -----------------#
+numeroOculto = random.randint(1,10)
+vidas = 3
+numeroIngresado = int(input(MENSAJE_NUMERO))
+while(numeroIngresado != numeroOculto and vidas>1):
+    vidas-=1
+    print(vidas)
+    print(numeroOculto)
+    numeroIngresado =int(input(PREGUNTA_FALLASTE))
+    
