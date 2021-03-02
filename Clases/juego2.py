@@ -23,7 +23,13 @@ PREGUNTA_DIFICULTAD = '''
 #----------------- Entrada al código -----------------#
 numeroOculto = random.randint(1,10)
 vidas = ''
+
+
 dificultad = int(input(PREGUNTA_DIFICULTAD))
+while(dificultad != 1 and dificultad != 2 and dificultad != 3):
+    print('Ingrese una opción valida')
+    dificultad = int(input(PREGUNTA_DIFICULTAD))
+
 if(dificultad == 1):
     vidas = 5
 elif(dificultad == 2):
