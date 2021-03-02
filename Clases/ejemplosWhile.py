@@ -11,7 +11,7 @@ PREGUNTA_MENU = ''' Ingrese
 PREGUNTA_NOMBRE = 'Ingrese su nombre por favor: '
 MENSAJE_ANO = 'Estamos en el años 2021'
 MENSAJE_SALIR = 'Muchas gracias por usar el programa, feliz día'
-MENSAJE_ERRO = 'Por favor ingrese un número valido'
+MENSAJE_ERROR = 'Por favor ingrese un número valido'
 
 
 entrada = 1
@@ -28,4 +28,4 @@ while(entrada >=1 and entrada<=3):
         print(MENSAJE_SALIR)
     else:
         entrada = 1
-        print(MENSAJE_ERRO)
+        print(MENSAJE_ERROR)
