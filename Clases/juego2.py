@@ -31,10 +31,13 @@ while(dificultad != 1 and dificultad != 2 and dificultad != 3):
     dificultad = int(input(PREGUNTA_DIFICULTAD))
 
 if(dificultad == 1):
+    print('Modo fácil activado')
     vidas = 5
 elif(dificultad == 2):
+    print('Modo moderado activado')
     vidas = 3
 else:
+    print('Modo dicícil activado')
     vidas = 1
 
 numeroIngresado = int (input(PREGUNTA_NUMERO))
