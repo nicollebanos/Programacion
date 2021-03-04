@@ -36,3 +36,9 @@ for iteracion in range (1,11):
         print(iteracion, '--> Es un número par')
     else:
         print(iteracion, '--> Es un número impar')
+
+print("--------------------------")
+rango = int(input('Ingrese el rango máximo: '))
+
+for iteracion in range (1,rango+1):
+    print(iteracion)
