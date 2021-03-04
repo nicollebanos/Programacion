@@ -59,8 +59,8 @@ if(vidas >= 0 and numeroIngresado == numeroOculto):
     while(numeroIngresado != numeroOcultoDos and vidas>1):
         if(numeroIngresado > numeroOcultoDos):
             print(MENSAJE_CALIENTE)
-    else:
-        print(MENSAJE_FRIO)
+        else:
+            print(MENSAJE_FRIO)
         vidas -=1
         print(F'te quedan {vidas} vidas')
         numeroIngresado =int(input(PREGUNTA_FALLASTE))
