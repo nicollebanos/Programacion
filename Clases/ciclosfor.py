@@ -11,5 +11,16 @@ for iteracion in range (1,11):
     print(iteracion)
 
 print("--------------------------")
-for iteracion in range (1,11,2):
+for iteracion in range (1,14,2):
     print(iteracion)
+
+print("--------------------------")
+residuo = 5%4
+print(residuo)
+residuo = 4%4
+print(residuo)
+
+print("--------------------------")
+for iteracion in range(1,11):
+    if(iteracion%2 == 0):
+        print(iteracion)
