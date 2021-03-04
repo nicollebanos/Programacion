@@ -14,6 +14,9 @@ PREGUNTA_NUMERO = '''
 PREGUNTA_FALLASTE = 'Ahhhhhhhh! fallaste :3, ingresa otro número  '
 MENSAJE_GANASTE = 'Felicidades, ganaste!!!'
 MENSAJE_PERDISTE = 'Perdiste, vuelve a intentarlo!!!'
+MENSAJE_SEGUNDO_NIVEL = 'Felicidades, pasaste el primer nivel... continuemos'
+MENSAJE_CALIENTE = 'Estas caliente'
+MENSAJE_FRIO = 'Estas frío'
 PREGUNTA_DIFICULTAD = '''
             1- Fácil
             2- Moderado
@@ -22,6 +25,7 @@ PREGUNTA_DIFICULTAD = '''
 
 #----------------- Entrada al código -----------------#
 numeroOculto = random.randint(1,10)
+numeroOcultoDos = random.randint(1,10)
 vidas = ''
 
 
@@ -32,21 +36,42 @@ while(dificultad != 1 and dificultad != 2 and dificultad != 3):
 
 if(dificultad == 1):
     print('Modo fácil activado')
-    vidas = 5
+    vidas = 10
 elif(dificultad == 2):
     print('Modo moderado activado')
-    vidas = 3
+    vidas = 5
 else:
     print('Modo dicícil activado')
-    vidas = 1
+    vidas = 2
 
 numeroIngresado = int (input(PREGUNTA_NUMERO))
 while(numeroIngresado != numeroOculto and vidas>1):
+    if(numeroIngresado > numeroOculto):
+        print(MENSAJE_CALIENTE)
+    else:
+        print(MENSAJE_FRIO)
     vidas -=1
     print(F'te quedan {vidas} vidas')
     numeroIngresado =int(input(PREGUNTA_FALLASTE))
-    
+if(vidas >= 0 and numeroIngresado == numeroOculto):
+    print(MENSAJE_SEGUNDO_NIVEL)
+    numeroIngresado = int(input(PREGUNTA_NUMERO))
+    while(numeroIngresado != numeroOcultoDos and vidas>1):
+        if(numeroIngresado > numeroOcultoDos):
+            print(MENSAJE_CALIENTE)
+    else:
+        print(MENSAJE_FRIO)
+        vidas -=1
+        print(F'te quedan {vidas} vidas')
+        numeroIngresado =int(input(PREGUNTA_FALLASTE))
+
+
 if(vidas >= 0 and numeroIngresado == numeroOculto):
     print(MENSAJE_GANASTE)
+
 else:
-    print(MENSAJE_PERDISTE, 'El número era el ', numeroOculto)
+    print(MENSAJE_PERDISTE, 
+                    'El número uno era el ',
+                    numeroOculto,
+                    'El número dos era el',
+                    numeroOcultoDos)
