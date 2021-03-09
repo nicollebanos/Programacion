@@ -31,6 +31,10 @@ print(menor)
 largoListaEdades = len(edades)
 print(largoListaEdades)
 
+#como contamos cuantos elementos hay?
+largoListaNombres = len(nombres)
+print(largoListaNombres)
+
 #Como sumamos elementos?
 sumaEdades = sum(edades)
 print(sumaEdades)
@@ -47,4 +51,8 @@ print(edades)
 largoListaEdades = len(edades)
 for indice in range (largoListaEdades):
     print(edades[indice])
-    
+
+#listado nombres largo
+largoListaEdades = len(nombres)
+for indice in range (largoListaNombres):
+    print(nombres[indice])
