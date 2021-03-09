@@ -6,7 +6,7 @@ nombres.append('Mauricio')
 print(nombres)
 print(nombres[2])
 
-edades = [18, 19, 20, 17]
+edades = [18, 19, 20, 17,32]
 estaturas = [1.62, 1.80, 1,67, 1.89]
 # al último
 print(edades[-2])
@@ -21,8 +21,20 @@ print(edades)
 edades.sort(reverse=True)
 print(edades)
 
-#mayor de la lista
+#mayor y menor de la lista
 mayor = max(edades)
 print(mayor)
 menor = min(edades)
 print(menor)
+
+#como contamos cuantos elementos hay?
+largoListaEdades = len(edades)
+print(largoListaEdades)
+
+#Como sumamos elementos?
+sumaEdades = sum(edades)
+print(sumaEdades)
+
+#Como calculo el promedio
+promedioEdades = sumaEdades/largoListaEdades
+print(promedioEdades)
