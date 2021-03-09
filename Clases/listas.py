@@ -38,3 +38,13 @@ print(sumaEdades)
 #Como calculo el promedio
 promedioEdades = sumaEdades/largoListaEdades
 print(promedioEdades)
+
+#eliminar un elemento
+edades.pop(2)
+print(edades)
+
+#nombres --> ciclo for y las listas
+largoListaEdades = len(edades)
+for indice in range (largoListaEdades):
+    print(edades[indice])
+    
