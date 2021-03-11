@@ -20,10 +20,10 @@ opcionMoneda = input(PREGUNTA_MONEDA)
 if(opcionMoneda == 'C'):
     print('Mostrando lista original')
     print(listaPesos)
-elif(opcionMoneda == 'D')
+elif(opcionMoneda == 'D'):
     print('Mostrar lista en dolares')
     print(listaDolares)
-elif(opcionMoneda == 'E')
+elif(opcionMoneda == 'E'):
     print('Mostrar lista en Euros')
     print(listaEuros)
 else:
