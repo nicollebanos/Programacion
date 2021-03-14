@@ -21,6 +21,13 @@ mensajeEuros = 'Mostran lista en euros'
 mensajeErrorEntrada ='valor ingresado no valido'
 preguntarNumero = 'Ingrese un valor en dolares :'
 
+mensajeIgredoBajo = 'El ingreso bajo es -->'
+mensajeIngresoMedio = 'El ingreso medio es -->'
+mensajeIngresoAlto = 'El ingreso altoes -->'
+mensajePromedio = 'El promedio es -->'
+
+mensajeDespedida ='Muchas gracias, vuelva pronto'
+
 listaEuros = []
 for elemento in listaDolares:
     conversor = round (elemento*0.84,2)
@@ -54,15 +61,11 @@ while (opcionEscogida !=5):
         print(listaDolares)
     #-------------------------------Opcion3-------------------------#
     elif(opcionEscogida == 3):
-        print(mensajeMayor, max(listaPesos))
-        print(mensajeMenor, min(listaPesos))
-        print(mensajePromedio,sum(listaPesos)/len(listaPesos))
+        print(mensajeIgredoBajo, max(listaDolares))
+        print(mensajeIngresoMedio, min(listaDolares))
+        print(mensajeIngresoAlto, )
+        print(mensajePromedio,sum(listaDolares)/len(listaDolares))
     #-------------------------------Opcion4-----------------------------#
-    elif(opcionEscogida == 4):
-        print (listaPesos)
-        posicion = int(input(preguntaBorrarCoordenada)) - 1
-        listaPesos.pop(posicion)
-        print(listaPesos)
     #---------Opcion no valida---------#
     else:
         print(mensajeErrorEntrada)
