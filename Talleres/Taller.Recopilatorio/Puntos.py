@@ -19,7 +19,7 @@ mensajeDolares = 'Mostran lista original'
 mensajePesos = 'Mostrando lista pesos colombianos'
 mensajeEuros = 'Mostran lista en euros'
 mensajeErrorEntrada ='valor ingresado no valido'
-preguntaNumero = 'Ingrese un valor en dolares :'
+preguntarNumero = 'Ingrese un valor en dolares :'
 
 listaEuros = []
 for elemento in listaDolares:
@@ -49,7 +49,7 @@ while (opcionEscogida !=5):
             print(mensajeErrorEntrada)
     #----------------------Opcion2---------------------------#
     elif (opcionEscogida == 2):
-        valorIngresado = float (input(preguntaNumero))
+        valorIngresado = float (input(preguntarNumero))
         listaDolares.append(valorIngresado)
         print(listaDolares)
     #-------------------------------Opcion3-------------------------#
