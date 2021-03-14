@@ -62,7 +62,7 @@ for elemento in listaDolares:
 
 #----------------------- Opciones -----------------------#
 opcionEscogida = int(input(preguntaNumero))
-while (opcionEscogida !=5):
+while (opcionEscogida !=4):
     #--------------------------Opcion1----------------------------#
     if (opcionEscogida == 1):
         opcionMoneda = input(preguntaMoneda)
