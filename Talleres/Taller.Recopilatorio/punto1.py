@@ -5,9 +5,9 @@ preguntaMoneda = '''
     D- Mostrar original en Dolares
     E- Mostrar en Euros
 '''
-mensajeDolares = 'Mostran Lista original'
+mensajeDolares = 'Mostran lista original'
 mensajePesos = 'Mostrando lista pesos colombianos'
-mensajeEuros = 'Mostran Lista en euros'
+mensajeEuros = 'Mostran lista en euros'
 mensajeErrorEntrada ='valor ingresado no valido'
 
 listaEuros = []
