@@ -20,14 +20,17 @@ for elemento in listaDolares:
     listaPesos.append(conversor)
 
 opcionMoneda = input(preguntaMoneda)
-if (opcionMoneda == 'C'):
-    print(mensajePesos)
-    print(listaPesos)
-elif (opcionMoneda == 'D'):
-    print(mensajeDolares)
-    print(listaDolares)
-elif (opcionMoneda == 'E'):
-    print(mensajeEuros)
-    print(listaEuros)
-else:
-    print(mensajeErrorEntrada)
+while(opcionMoneda != 'C', 'D', 'E'):
+    if (opcionMoneda == 'C'):
+        print(mensajePesos)
+        print(listaPesos)
+    elif (opcionMoneda == 'D'):
+        print(mensajeDolares)
+        print(listaDolares)
+    elif (opcionMoneda == 'E'):
+        print(mensajeEuros)
+        print(listaEuros)
+    else:
+        print(mensajeErrorEntrada)
+
+
