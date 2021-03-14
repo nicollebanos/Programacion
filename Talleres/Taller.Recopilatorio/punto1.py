@@ -32,5 +32,6 @@ while(opcionMoneda != 'C', 'D', 'E'):
         print(listaEuros)
     else:
         print(mensajeErrorEntrada)
+    opcionMoneda = input(preguntaMoneda)
 
 
