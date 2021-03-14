@@ -1,5 +1,5 @@
 
-#---------------Preguntas --------------------#
+#---------------Pregunta inicial --------------------#
 preguntaNumero = '''Ingrese alguna de estas opciones
     1.Hacer conversión de dolares a pesos colombianos o Euros
     2.Mostrar si es bajo, medio alto o elevado ingreso
@@ -7,12 +7,14 @@ preguntaNumero = '''Ingrese alguna de estas opciones
     4.Salir
 '''
 
+#-------------- pregunta secundaria punto 1 -------------#
 listaDolares = [20000,30000,4000,2500,1000,7600]
 preguntaMoneda = '''
     C- Mostrar en pesos colombiano
     D- Mostrar original en Dolares
     E- Mostrar en Euros
 '''
+#-------------------- MENSAJES -----------------#
 mensajeDolares = 'Mostrando lista original'
 mensajePesos = 'Mostrando lista pesos colombianos'
 mensajeEuros = 'Mostrando lista en euros'
@@ -60,7 +62,7 @@ for elemento in listaDolares:
         clasificacion = 'Ingresos elevados'
     listaClasificacion.append(clasificacion)
 
-#----------------------- Opciones -----------------------#
+#----------------------- Opciones INICIO -----------------------#
 opcionEscogida = int(input(preguntaNumero))
 while (opcionEscogida !=4):
     #--------------------------Opcion1----------------------------#
