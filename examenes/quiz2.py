@@ -54,7 +54,7 @@ for elemento in listaTemperaturaCorporal:
         clasificacion = 'Temperatura normal'
     listaClasificacion.append(clasificacion)
 
-#----------------------- Opciones INICIO -----------------------#
+#----------------------- INICIO -----------------------#
 opcionEscogida = int(input(preguntaNumero))
 while (opcionEscogida !=4):
     #--------------------------Opcion1----------------------------#
@@ -85,6 +85,6 @@ while (opcionEscogida !=4):
         print(MENSAJE_ERROR_ENTRADA)
     opcionEscogida = int(input(preguntaNumero))
 
-#--------------- vuelve -------------#
+#--------------- DESPEDIDA -------------#
 print (MESNSAJE_DESPEDIDA)
 
