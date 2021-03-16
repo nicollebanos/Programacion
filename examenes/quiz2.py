@@ -4,7 +4,7 @@
 preguntaNumero = '''Ingrese alguna de estas opciones
     1. Hacer conversión de grados Centigrados a Kelvin o a fahrenheit.
     2. Mostrar si es hipotermia, fiebre o temperatura normal, clasificación.
-    3. Mostrar la temperatura maxima y la minima.
+    3. Mostrar la temperatura máxima y la minima.
     4.Salir.
 '''
 
@@ -30,7 +30,7 @@ MENSAJE_TEMP_MIN = 'La temperatura minima es -->'
 masAlto = max (listaTemperaturaCorporal)
 masBajo = min (listaTemperaturaCorporal)
 
-mensajeDespedida ='Muchas gracias... espero que haya sido de mucha ayuda para usted, vuelva pronto '
+MESNSAJE_DESPEDIDA ='Muchas gracias... espero que haya sido de mucha ayuda para usted, vuelva pronto '
 
 #---------------- punto 1 --------------------#
 listaGradosKelvin = []
@@ -81,9 +81,9 @@ while (opcionEscogida !=4):
         print (MENSAJE_TEMP_MIN, masBajo)
     #---------Opcion no valida---------#
     else:
-        print(mensajeErrorEntrada)
+        print(MENSAJE_ERROR_ENTRADA)
     opcionEscogida = int(input(preguntaNumero))
 
 #--------------- vuelve -------------#
-print (mensajeDespedida)
+print (MESNSAJE_DESPEDIDA)
 
