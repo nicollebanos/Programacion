@@ -3,7 +3,7 @@
 #---------------Pregunta inicial --------------------#
 preguntaNumero = '''Ingrese alguna de estas opciones
     1. Hacer conversión de grados Centigrados a Kelvin o a fahrenheit.
-    2. Mostrar es hipotermia, fiebre o temperatura normal, clasificación.
+    2. Mostrar si es hipotermia, fiebre o temperatura normal, clasificación.
     3. Mostrar la temperatura maxima y la minima.
     4.Salir.
 '''
@@ -21,20 +21,16 @@ MENSAJE_GRADO_CENTIGRADO = 'La conversión no es valida, ya la lista se encuentr
 MENSAJE_GRADO_FAHRENHEIT = 'Mostrando lista en grados fahrenheit'
 MENSAJE_ERROR_ENTRADA ='valor ingresado no valido'
 
-mensajeOpcion = 'Usted escogio la opción {}'
+MENSAJE_OPCION = 'Usted escogio la opción {}'
 
-mensajeIgredoBajo = 'El ingreso bajo es -->'
-mensajeIngresoMedio = 'El ingreso medio es -->'
-mensajeIngresoAlto = 'El ingreso altoes -->'
-mensajePromedio = 'El promedio es -->'
+MENSAJE_TEMP_MAX = 'La temperatura máxima es -->'
+MENSAJE_TEMP_MIN = 'La temperatura minima es -->'
+
 
 masAlto = max (listaTemperaturaCorporal)
 masBajo = min (listaTemperaturaCorporal)
-acumulador = 0
-for elemento in listaTemperaturaCorporal :
-    acumulador += elemento
 
-mensajeDespedida ='Muchas gracias, vuelva pronto'
+mensajeDespedida ='Muchas gracias... espero que haya sido de mucha ayuda para usted, vuelva pronto '
 
 #---------------- punto 1 --------------------#
 listaGradosKelvin = []
@@ -76,14 +72,13 @@ while (opcionEscogida !=4):
             print(MENSAJE_ERROR_ENTRADA)
     #-------------------------------Opcion2-------------------------#
     elif (opcionEscogida == 2):
-        print(mensajeOpcion.format(2))
+        print(MENSAJE_OPCION.format(2))
         print (listaClasificacion)
     #--------------------------- Opcion 3 -------------------------#
     elif (opcionEscogida == 3):
-        print(mensajeOpcion.format(3))
-        print ('El ingreso más alto fue', masAlto)
-        print ('El ingreso más bajo fue', masBajo)
-        print ('El ingreso en promedio fue', promedioDolares)
+        print(MENSAJE_OPCION.format(3))
+        print (MENSAJE_TEMP_MAX, masAlto)
+        print (MENSAJE_TEMP_MIN, masBajo)
     #---------Opcion no valida---------#
     else:
         print(mensajeErrorEntrada)
