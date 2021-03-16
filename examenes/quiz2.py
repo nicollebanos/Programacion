@@ -17,7 +17,7 @@ preguntaTemperatura = '''
 '''
 #-------------------- MENSAJES -----------------#
 MENSAJE_GRADO_KELVIN = 'Mostrando lista en grados kelvin'
-MENSAJE_GRADO_CENTIGRADO = 'La conversión no es valida'
+MENSAJE_GRADO_CENTIGRADO = 'La conversión no es valida, ya la lista se encuentra en grados centigrados'
 MENSAJE_GRADO_FAHRENHEIT = 'Mostrando lista en grados fahrenheit'
 MENSAJE_ERROR_ENTRADA ='valor ingresado no valido'
 
@@ -39,11 +39,11 @@ mensajeDespedida ='Muchas gracias, vuelva pronto'
 #---------------- punto 1 --------------------#
 listaGradosKelvin = []
 for elemento in listaTemperaturaCorporal:
-    conversor = round (273.15*elemento)
+    conversor = round (273.15+elemento)
     listaGradosKelvin.append(conversor)
 listaGradosFahrenheit = []
 for elemento in listaTemperaturaCorporal:
-    conversor = round ((elemento-32)/1.8)
+    conversor = round ((elemento*1.8)+32)
     listaGradosFahrenheit.append(conversor)
 
 #------------------- Punto 2 ------------------------#
