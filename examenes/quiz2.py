@@ -52,6 +52,7 @@ for elemento in listaTemperaturaCorporal:
         clasificacion = 'Fiebre'
     elif (elemento >= 36 and elemento < 37.5):
         clasificacion = 'Temperatura normal'
+    listaClasificacion.append(clasificacion)
 
 #----------------------- Opciones INICIO -----------------------#
 opcionEscogida = int(input(preguntaNumero))
