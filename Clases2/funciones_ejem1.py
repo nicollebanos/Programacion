@@ -27,7 +27,7 @@ linedesing(30,'.-.')
 mostrarLista(lista2)
 
 
-#------------- sumar dos númerod -------------#
+#------------- sumar dos números -------------#
 def sumar (a = 0,b = 0):
     suma = a + b
     return suma
@@ -35,3 +35,18 @@ linedesing(10,':v')
 resultado = sumar()
 print(sumar(12,14))
 round(12.23456,2)
+
+#------------- restar dos números -------------#
+def restar (a = 0,b = 0):
+    resta = a - b
+    return resta
+
+#------------- multiplicar dos números -------------#
+def multiplicar (a = 0,b = 0):
+    multiplica = a * b
+    return multiplica
+
+#------------- dividir dos números -------------#
+def dividir (a = 0,b = 1):
+    dividi = a + b
+    return dividi
