@@ -28,7 +28,7 @@ mostrarLista(lista2)
 
 
 #------------- sumar dos números -------------#
-def sumar (a = 0,b = 0):
+def sumar (a = 0,b = 0): #---- Valores por defector ----#
     suma = a + b
     return suma
 linedesing(10,':v')
@@ -37,16 +37,20 @@ print(sumar(12,14))
 round(12.23456,2)
 
 #------------- restar dos números -------------#
-def restar (a = 0,b = 0):
+def restar (a = 0,b = 0): #---- Valores por defector ----#
     resta = a - b
     return resta
 
 #------------- multiplicar dos números -------------#
-def multiplicar (a = 0,b = 0):
+def multiplicar (a = 0,b = 0): #---- Valores por defector ----#
     multiplica = a * b
     return multiplica
 
 #------------- dividir dos números -------------#
-def dividir (a = 0,b = 1):
-    dividi = a + b
+def dividir (a = 0,b = 1): #---- Valores por defector ----#
+    dividi = a / b
     return dividi
+
+print(restar(83,87))
+print(multiplicar(83,87))
+print(dividir(83,87))
