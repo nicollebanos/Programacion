@@ -29,6 +29,10 @@ mostrarLista(lista2)
 
 #------------- sumar dos números -------------#
 def sumar (a = 0,b = 0): #---- Valores por defector ----#
+    '''
+        devulve la suma de dos números a y b
+        por defecto a vale cero al igual que b
+    '''
     suma = a + b
     return suma
 linedesing(10,':v')
