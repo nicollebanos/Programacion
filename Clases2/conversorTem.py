@@ -42,4 +42,4 @@ def mostrarTopes(lista):
     periodoHoras =round(24/len(lista),2)
     print('La mayor temperatura es', mayor)
     print('La menor temperatura es', menor)
-    print('El periodo de muestras es', periodoHoras)
+    print('El periodo de muestras es', periodoHoras)  
