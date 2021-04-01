@@ -1,5 +1,5 @@
 
-def conversionTemeperatura(temperaturas, unidad):
+def conversionTemperatura(temperaturas, unidad):
     '''Convierte una lista de temperaturas
     Entradas: 
         unidad :según la unidad ingresada, puede ser ...
