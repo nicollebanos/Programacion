@@ -14,8 +14,8 @@ print('Digite un número y se le dara el número que se encuentre en esa posici�
 
 #------ Pregunta número ------#
 PREGUNTA_NUMERO = 'Digite un número: '
-pregunta = input(PREGUNTA_NUMERO)
-print(pregunta)
+numero = input(PREGUNTA_NUMERO)
+
 
 def mostrarListaFibo (lista):
     a = 0
