@@ -31,6 +31,6 @@ def potenciar (a = 0,b = 0, c = 1):
 
 print('La suma es',sumar(40,28, 36))
 print('La resta es ', restar(40,28, 36))
-print('La ultiplicacón es ', multiplicar(40,28, 36))
+print('La multiplicacón es ', multiplicar(40,28, 36))
 print('La división es ', dividir(40,28, 36))
 print('La potencia es ', potenciar(40,2,3))
