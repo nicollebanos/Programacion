@@ -29,8 +29,8 @@ def potenciar (base = 0,exponente = 1, exponente2 = 1):
     return potencia
 
 
+print(sumar(40,28, 36))
 print(restar(40,28, 36))
 print(multiplicar(40,28, 36))
 print(dividir(40,28, 36))
-print(multiplicar(40,28, 36))
 print(potenciar(40,28, 36))
