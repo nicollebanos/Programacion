@@ -9,4 +9,14 @@
 
 listaFibonacci = [0,1,1,2,3,5,8,13,21,34,55,89,144]
 
-def listaFibonacci
+def mostrarListaFibo (valor):
+    valor1 = 0
+    valor2 = 1
+    for elemento in range(valor-1):
+        secuencia = valor1+valor2
+        valor1 = valor2
+        valor2 = secuencia
+    return(valor1)
+posicion = mostrarListaFibo(5)
+print(posicion)
+
