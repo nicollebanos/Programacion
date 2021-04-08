@@ -9,13 +9,6 @@
 
 listaFibonacci = [0,1,1,2,3,5,8,13,21,34,55,89,144]
 
-#------Bienvenida --------#
-print('Digite un número y se le dara el número que se encuentre en esa posición de la lista')
-
-#------ Pregunta número ------#
-PREGUNTA_NUMERO = 'Digite un número: '
-numero = input(PREGUNTA_NUMERO)
-
 
 def mostrarListaFibo (lista):
     a = 0
@@ -26,7 +19,8 @@ def mostrarListaFibo (lista):
         b = secuencia
     return(a)
 
-posicion = mostrarListaFibo(3)
+
+posicion = mostrarListaFibo(5)
 
 print(posicion)
 
