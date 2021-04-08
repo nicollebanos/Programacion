@@ -13,17 +13,20 @@ listaFibonacci = [0,1,1,2,3,5,8,13,21,34,55,89,144]
 print('Digite un número y se le dara el número que se encuentre en esa posición de la lista')
 
 #------ Pregunta número ------#
-PREGUNTA_NUMERO = 
+PREGUNTA_NUMERO = 'Digite un número: '
+pregunta = input(PREGUNTA_NUMERO)
+print(pregunta)
 
 def mostrarListaFibo (lista):
     a = 0
     b = 1
-    for elemento in range(lista-1):
+    for lista in range(lista-1):
         secuencia = a+b
         a = b
         b = secuencia
     return(a)
-posicion = mostrarListaFibo(5)
+
+posicion = mostrarListaFibo(3)
 
 print(posicion)
 
