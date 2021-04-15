@@ -1,8 +1,8 @@
 
 import introduccion as moldes
 
-biomedicio = moldes.Biomedico('Aleja',20,1.63,'Biomédicina')
-biomedicio.mostrarAtributos()
-biomedicio.recorrerDistancia(27)
-biomedicio.solucionarProblemas('Alta demanda en equipos médicos extranjeros')
-biomedicio.crearAlgoritmo('Detector de picos ECG')
+biomedico = moldes.Biomedico('Aleja',20,1.63,'Biomédicina')
+biomedico.mostrarAtributos()
+biomedico.recorrerDistancia(27)
+biomedico.solucionarProblemas('Alta demanda en equipos médicos extranjeros')
+biomedico.crearAlgoritmo('Detector de picos ECG') 
