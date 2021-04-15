@@ -44,6 +44,21 @@ class Humano():
             ingresarMontos =input(preguntaIngresarMontos)
         return self.dinero
 
+class Ingeniero(Humano):
+    def solucionarProblema(self, problema):
+        print(f'''Hola soy un ingeniero y me llamo {self.nombre} y procedo a solucionar el 
+        problema {problema}
+    ''')
+
+
+class Biomedico(Ingeniero):
+    def mantenimientoEquiposMedicos(self, nombreEquipo):
+        print(f'Hola soy {self.nombre} y procedo a arreglar el {nombreEquipo}')
+
+class Abogado(Humano):
+    def levantarAccionDeTutela(self, nombreCliente):
+        print(f'Hola soy {self.nombre} y estoy representando a {nombreCliente}')
+
 
 humano1 = Humano('Daniel',27,1.67)
 humano2 = Humano('Mafer',27,1.60)
@@ -58,3 +73,12 @@ humano1.recorrerDistancia(25)
 humano2.mostrarAtributos()
 totalAhorrado = humano2.ahorraDinero()
 humano2.mostrarAtributos()
+
+biomedico1 = Biomedico('Andre', 18, 1.63)
+biomedico1.recorrerDistancia(5)
+biomedico1.mostrarAtributos()
+biomedico1.mantenimientoEquiposMedicos('Electrocardiograma')
+
+abogado1 = Abogado('Vero', 18, 1.56)
+abogado1.mostrarAtributos()
+abogado1.levantarAccionDeTutela(biomedico1.nombre)
