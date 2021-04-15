@@ -4,10 +4,10 @@ class Perro ():
     los cánidos. Lo caracterizan varios atributos que los diferencian 
     entre ellos:
 
-    nombreEntrada: Hace referencia al tipo de Perro
+    nombreEntrada: Hace referencia al nombre del perro
     generoEntrada: Hace referencia a si es macho o hembra
     habitadEntrada: Hace referencia si es de casa o de calle
-    razaEntrada: Hace referencia al la raza - pequeña, mediana, grande
+    razaEntrada: Hace referencia al la raza
     El canino presenta las siguentes aciones:
     *dormir(accion):
         Describe cada cuanto duerme
@@ -25,25 +25,34 @@ class Perro ():
         self.raza = razaEntrada
 
     def dormir (self):
-        print(f"Holis soy {self.nombre}  y soy un canino muy dormilon")
+        print(f'''Podria decir que me considero un {self.raza} muy dormilon.
+        Duermo toda la noche y hago siestas el medio día.
+''')
 
     def jugar (self):
-        print(f'''Soy un canino de nombre {self.nombre} y 
-    vivo con tanta energía que juego todo el día
-    sin cansarme
+        print(f''' Vivo en una/la {self.habitat}, juego al máximo día y 
+        noche hasta caer cansado, se pasa un rato agradable.
     ''')
 
     def mostrarAtributos (self):
         print(f'''Holis mi nombre es {self.nombre} y soy {self.genero}.
-                Me encuentro viviendo en una/la {self.habitat} y soy de 
-                raza {self.raza} lo que me hace cada vez más 
-                atractivo para las personas
-    ''')
+    Me encuentro viviendo en una/la {self.habitat} y soy de 
+    raza {self.raza} lo que me hace atractivo 
+    para las personas cuando me ven.
+''')
 
-perro1 = Perro('Bugdog Inglés', 'macho', 'casa', 'mediana')
-perro2 = Perro('Chihuahua', 'hembra', 'casa', 'pequeña')
-perro3 = Perro('Golden retriever', 'macho', 'calle', 'grande')
+perro1 = Perro('Pancho', 'Bugdog Inglés', 'casa', 'macho')
+perro2 = Perro('Milu', 'Chihuahua', 'casa', 'hembra')
+perro3 = Perro('Rocky', 'Golden retriever', 'calle', 'macho')
 
 perro1.mostrarAtributos()
+perro1.dormir()
+perro1.jugar()
+
 perro2.mostrarAtributos()
+perro2.dormir()
+perro2.jugar()
+
 perro3.mostrarAtributos()
+perro3.dormir()
+perro3.jugar()
