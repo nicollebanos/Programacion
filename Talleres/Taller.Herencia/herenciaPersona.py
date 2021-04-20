@@ -63,9 +63,9 @@ class Doctor (Persona):
         self.especialidad = especialidadEntreda
 
     def tratamiento (self, enfermedad):
-        print(f'''Hola soy {self.nombre} y mi especialidad 
-        es {self.especialidad} y te ayudare a tratar 
-        tu {enfermedad}
+        print(f'''Hola soy {self.nombre}, me especialice
+        en {self.especialidad} y el día de hoy
+        te ayudare con tu problema de {enfermedad}
         ''')
 
 doctor = Doctor('Jose', 199238, 50, 'Dermatologia')
