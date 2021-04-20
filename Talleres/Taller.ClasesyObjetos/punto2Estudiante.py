@@ -17,24 +17,25 @@ class Estudiante ():
         Descibre el tiempo de estudio del estudiante
     '''
 
-    def __init__(self,nombreEntrada, idEntrada, carreraEntrada, semestreEntrada):
+    def __init__(self,nombreEntrada, idEntrada, carreraEntrada, semestreEntrada, edadEntrada):
         print("Datos por estudiante")
         self.nombre = nombreEntrada
+        self.edad = edadEntrada 
         self.id = idEntrada
         self.carrera = carreraEntrada
         self.semestre = semestreEntrada  
 
 
     def mostrarAtributos (self):
-        print(f''' Buenas tardes, mi nombre es {self.nombre}, identificado
-        con el ID {self.id}. Actualmente curso {self.semestre} 
+        print(f''' Buenas tardes, mi nombre es {self.nombre} y tengo {self.edad}, 
+        identificado con el ID {self.id}. Actualmente curso {self.semestre} 
         semetre de {self.carrera} y me siento dichos@ al poder decir
         que elegi bien mi carrera de vida
     ''')
 
-estudiante1 = Estudiante('Gabriela', '1002394756', 'diseño de modas', 'primer')
-estudiante2 = Estudiante('Ignacio', '1003945862', 'arquitectura', 'quinto')
-estudiante3 = Estudiante('Ándres', '1004293452', 'negocios internacionales', 'tercer')
+estudiante1 = Estudiante('Gabriela', '1002394756', 'diseño de modas', 'primer', '17')
+estudiante2 = Estudiante('Ignacio', '1003945862', 'arquitectura', 'quinto', '20')
+estudiante3 = Estudiante('Ándres', '1004293452', 'negocios internacionales', 'tercer', '19')
 
 #----------------- Print ----------------------#
 print('--------------- Estudiante 1 ---------------')
