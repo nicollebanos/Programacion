@@ -108,10 +108,29 @@ nutricionista.masaCorporal(60, 1.80)
 
 print('#------------------- PUNTO 4 ------------------#')
 #Herede la clase Persona y cree la clase Abogado 
-# adicione dos atributos uno asociado a su 
+#adicione dos atributos uno asociado a su 
 #especialidad y el otro a la universidad de la 
-# que egresó. Finalmente cree la función que 
+#que egresó. Finalmente cree la función que 
 #dado un nombre y el caso de cliente el abogado 
-# diga : procedo a representar al cliente 
+#diga : procedo a representar al cliente 
 #{nombre} en el caso {caso}
+
+class Abogado(Persona):
+    def __init__(self, nombreEntrada, idEntrada, edadEntrada, especializaciondEntreda, universidadEntrada):
+        Persona.__init__(self, nombreEntrada, idEntrada, edadEntrada)
+        self.especializacion = especializaciondEntreda
+        self.universidad = universidadEntrada
+
+    def representaciónCliente(self, casoCliente, nombreCliente):
+        self.nombre = nombreCliente
+        self.caso = casoCliente
+        print(f'''Soy abogado hace más de 20 años
+        y el día de hoy procedo a representar a mi cliente 
+        {self.nombre} en el caso  sobre {self.caso}
+        ''')
+
+
+abogado = Abogado('Hugo', 188273647, 50, 'derecho penal', 'Universidad Externado de Colombia')
+abogado.representaciónCliente('Carlos', 'abuso a menor de edad')
+
 
