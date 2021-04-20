@@ -28,10 +28,10 @@ class Nutricionista ():
     def masaCorporal (self, pesoEntrada, alturaEntrada):
         self.peso = pesoEntrada
         self.altura = alturaEntrada
-        IMC : self.peso / (self.altura**2)
+        imc = self.peso / (self.altura**2)
         print(f''' Como tu nutriologo, vericando los datos
-        de {self.peso} kg  de peso y {self.altura} m de altura 
-        dando como resultado como IMC {IMC}
+        de {self.peso} kg  de peso y {self.altura} m de altura, 
+        da como resultado que tu IMC es {imc}
         ''')
 
 
