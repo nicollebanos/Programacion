@@ -9,6 +9,9 @@ class Violin ():
     colorEntrada: hace referencia al color del violin
     marcaEntrada: hace referencia a la marca del violin
     tamañoEntrada: hace referencia al tamaño del violin 
+    Acción:
+    *tocar(accion):
+        Interpretación musical 
     '''
 
     def __init__(self,colorEntrada, marcaEntrada, tamañoEntrada):
@@ -24,9 +27,9 @@ class Violin ():
     ''')
 
 
-    def tocar (self):
+    def tocar (self, cancion):
         print(f''' El compositor esta tocando con el violin
-        
+        la canción {cancion}
     ''')
 
 
@@ -37,11 +40,16 @@ violin2 = Violin('blanco', 'Stentor', '3/4')
 violin3 = Violin('negro', 'Gliga', '4/4')
 
 
+
+
 print('--------------- Violin 1 ---------------')
 violin1.mostrarAtributos()
+violin1.tocar('Perfect')
 
 print('--------------- Violin 2 ---------------')
 violin2.mostrarAtributos()
+violin2.tocar('Crystallize')
 
 print('--------------- Violin 3 ---------------')
 violin3.mostrarAtributos()
+violin3.tocar('A thousand years')
