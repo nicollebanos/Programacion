@@ -32,9 +32,9 @@ class Estudiante ():
         que aMo mi carrera
     ''')
 
-estudiante1 = ('Gabriela', '1002394756', 'primer', 'diseño de modas')
-estudiante2 = ('Ignacio', '1003945862', 'quinto', 'arquitectura')
-estudiante3 = ('Ándres', '1004293452', 'tercer', 'negocios internacionales')
+estudiante1 = Estudiante('Gabriela', '1002394756', 'primer', 'diseño de modas')
+estudiante2 = Estudiante('Ignacio', '1003945862', 'quinto', 'arquitectura')
+estudiante3 = Estudiante('Ándres', '1004293452', 'tercer', 'negocios internacionales')
 
 #----------------- Print ----------------------#
 print('--------------- Estudiante 1 ---------------')
