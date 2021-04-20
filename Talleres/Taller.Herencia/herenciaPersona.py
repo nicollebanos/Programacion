@@ -51,3 +51,9 @@ persona3.mostrarAtributos()
 persona3.hablar('Hoy es un día más, sere feliz')
 
 #------------------- PUNTO 2 ------------------#
+#Herede la clase Persona y cree la clase Doctor el 
+#cual tendrá el nuevo atributo de especialidad y 
+#podrá ejecutar una nueva función, la cual es dado 
+#una enfermedad muestre en pantalla: procedo a tratar
+#dicha enfermedad
+
