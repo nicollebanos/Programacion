@@ -50,6 +50,6 @@ estudiante2.tiempoEstudio('análisis y diseño de estructuras', 3)
 
 print('--------------- Estudiante 3 ---------------')
 estudiante3.mostrarAtributos()
-estudiante3.tiempoEstudio('Microeconomía', 2)
+estudiante3.tiempoEstudio('Microeconomía', 19)
 
 
