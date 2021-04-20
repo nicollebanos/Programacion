@@ -65,5 +65,3 @@ class Doctor(Persona):
         self.neurologia = neurologiaEntrada
         self.psiquiatria = psiquiatriaEntrada  
 
-    def solucionarProblemas(self,problema):
-
