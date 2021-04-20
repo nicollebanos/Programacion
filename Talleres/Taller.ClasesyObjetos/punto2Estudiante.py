@@ -36,7 +36,7 @@ class Estudiante ():
     def tiempoEstudio (self, materiaEntrada, horasEntrada):
         self.materia = materiaEntrada
         self.horas = horasEntrada
-        print(f'El día de hoy me dedicare a estudiar {self.materia} durante {self.horas}')
+        print(f'El día de hoy me dedicare a estudiar {self.materia} durante {self.horas} horas')
 
 estudiante1 = Estudiante('Gabriela', '1002394756', 'diseño de modas', 'primer', '17')
 estudiante2 = Estudiante('Ignacio', '1003945862', 'arquitectura', 'quinto', '20')
@@ -49,10 +49,10 @@ estudiante1.tiempoEstudio('geometría descriptiva', 2)
 
 print('--------------- Estudiante 2 ---------------')
 estudiante2.mostrarAtributos()
-estudiante2.tiempoEstudio('análisis y diseño de estructuras', 1)
+estudiante2.tiempoEstudio('análisis y diseño de estructuras', 3)
 
 print('--------------- Estudiante 3 ---------------')
 estudiante3.mostrarAtributos()
-estudiante3.tiempoEstudio('Microeconomía', 1)
+estudiante3.tiempoEstudio('Microeconomía', 2)
 
 
