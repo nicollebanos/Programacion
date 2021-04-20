@@ -57,3 +57,11 @@ persona3.hablar('Hoy es un día más, sere feliz')
 #una enfermedad muestre en pantalla: procedo a tratar
 #dicha enfermedad
 
+class Doctor(Persona):
+    def __init__(self, cardiologiaEntrada, endocrinologiaEntrada, pediadriaEntrada, neurologiaEntrada, psiquiatriaEntrada):
+        Humano.__init__(self,cardiologiaEntrada, endocrinologiaEntrada, pediadriaEntrada, neurologiaEntrada, psiquiatriaEntrada)
+        self.cardiologia = cardiologiaEntrada
+        self.endocrinologia = endocrinologiaEntrada
+        self.pediatria = pediadriaEntrada
+        self.neurologia = neurologiaEntrada
+        self.psiquiatria = psiquiatriaEntrada
