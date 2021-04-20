@@ -105,3 +105,13 @@ class Nutricionista (Persona):
 
 nutricionista = Nutricionista('Diego', 199273561, 50, 'CES')
 nutricionista.masaCorporal(60, 1.80)
+
+print('#------------------- PUNTO 4 ------------------#')
+#Herede la clase Persona y cree la clase Abogado 
+# adicione dos atributos uno asociado a su 
+#especialidad y el otro a la universidad de la 
+# que egresó. Finalmente cree la función que 
+#dado un nombre y el caso de cliente el abogado 
+# diga : procedo a representar al cliente 
+#{nombre} en el caso {caso}
+
