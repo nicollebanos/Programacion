@@ -46,6 +46,8 @@ perro1 = Perro('Pancho', 'Bugdog Inglés', 'casa', 'macho')
 perro2 = Perro('Milu', 'Chihuahua', 'casa', 'hembra')
 perro3 = Perro('Rocky', 'Golden retriever', 'calle', 'macho')
 
+
+#----------------- Print ----------------------#
 print('--------------- Perro 1 ---------------')
 perro1.mostrarAtributos()
 perro1.dormir()
@@ -60,3 +62,5 @@ print('--------------- Perro 3 ---------------')
 perro3.mostrarAtributos()
 perro3.dormir()
 perro3.jugar()
+
+
