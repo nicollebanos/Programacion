@@ -33,13 +33,9 @@ class Violin ():
     ''')
 
 
-
-
 violin1 = Violin('marrón', 'Gewa', '1/2')
 violin2 = Violin('blanco', 'Stentor', '3/4')
 violin3 = Violin('negro', 'Gliga', '4/4')
-
-
 
 
 print('--------------- Violin 1 ---------------')
