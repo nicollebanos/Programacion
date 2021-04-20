@@ -7,7 +7,7 @@
 
 class Nutricionista ():
     '''
-    edadEntrada: Hace referencia ala edad
+    edadEntrada: Hace referencia a la edad
     nombreEntrada: Hace referencia al nombre
     universidadEntrada: Hace referencia a la universidaden la que se egresó
     '''
