@@ -4,7 +4,7 @@
 # tiempo muestra en pantalla que estudiará dicha materia en esa cantidad de tiempo
 
 class Estudiante ():
-    '''En un aula de encuentro se reuniron varias personas
+    '''En un aula de encuentro se reuniron tres personas
     de diferentes atributos academicos, los cuales serian:
 
     nombreEntrada: Hace referencia al nombre del estudiante
@@ -26,12 +26,15 @@ class Estudiante ():
 
 
     def mostrarAtributos (self):
-        print(f''' 
+        print(f''' Buenas tardes, mi nombre es {self.nombre}, identificado
+        con el ID {self.id}. Actualmente curso {self.semestre} 
+        semetre de {self.carrera} y me siento dichos@ al poder decir
+        que aMo mi carrera
     ''')
 
-estudiante1 = 
-estudiante2 = 
-estudiante3 = 
+estudiante1 = ('Gabriela', '1002394756', 'primer', 'diseño de modas')
+estudiante2 = ('Ignacio', '1003945862', 'quinto', 'arquitectura')
+estudiante3 = ('Ándres', '1004293452', 'tercer', 'negocios internacionales')
 
 #----------------- Print ----------------------#
 print('--------------- Estudiante 1 ---------------')
