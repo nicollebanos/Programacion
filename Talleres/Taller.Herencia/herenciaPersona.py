@@ -88,5 +88,20 @@ print('#------------------- PUNTO 3 ------------------#')
 # También una función que devuelva el IMC dado el 
 # peso y altura de un paciente
 
+class Nutricionista (Persona):
+    def __init__(self, nombreEntrada, idEntrada, edadEntrada, universidadEntreda):
+        Persona.__init__(self, nombreEntrada, idEntrada, edadEntrada)
+        self.universidad = universidadEntreda
 
 
+    def masaCorporal (self, pesoEntrada, alturaEntrada):
+        self.peso = pesoEntrada
+        self.altura = alturaEntrada
+        imc = self.peso / (self.altura**2)
+        print(f''' Como tu nutriologo, vericando los datos
+        de {self.peso} kg  de peso y {self.altura} m de altura, 
+        da como resultado que tu IMC es {imc}
+        ''')
+
+nutricionista = Nutricionista('Diego', 199273561, 50, 'CES')
+nutricionista.masaCorporal(60, 1.80)
