@@ -10,43 +10,33 @@ class Nutricionista ():
     edadEntrada: Hace referencia ala edad
     nombreEntrada: Hace referencia al nombre
     universidadEntrada: Hace referencia a la universidaden la que se egresó
-    
+    '''
 
-    def __init__(self,nombreEntrada, idEntrada, carreraEntrada, semestreEntrada, edadEntrada):
-        print("Datos por estudiante")
+    def __init__(self, edadEntrada, nombreEntrada, universidadEntrada):
+        print("Datos por Nutricionista")
+        self.edad = edadEntrada
         self.nombre = nombreEntrada
-        self.edad = edadEntrada 
-        self.id = idEntrada
-        self.carrera = carreraEntrada
-        self.semestre = semestreEntrada  
+        self.universidad = universidadEntrada 
 
 
     def mostrarAtributos (self):
-        print(f''' Buenas tardes, mi nombre es {self.nombre} y tengo {self.edad}, 
-        identificado con el ID {self.id}. Actualmente curso {self.semestre} 
-        semetre de {self.carrera} y me siento dichos@ al poder decir
-        que elegi bien mi carrera de vida
+        print(f''' Buenas tardes soy la nutricionista {self.nombre},
+        tengo {self.edad} años y curse mis estudios en 
+        la univdersidad {self.universidad}.
     ''')
 
-    def tiempoEstudio (self, materiaEntrada, horasEntrada):
-        self.materia = materiaEntrada
-        self.horas = horasEntrada
-        print(f'El día de hoy me dedicare a estudiar {self.materia} durante {self.horas} horas')
+    def indiceMasaCorporal (self, pesoEntrada, alturaEntrada):
+        self.peso = pesoEntrada
+        self.altura = alturaEntrada
+        print(f'''
+        ''')
 
-estudiante1 = Estudiante('Gabriela', '1002394756', 'diseño de modas', 'primer', '17')
-estudiante2 = Estudiante('Ignacio', '1003945862', 'arquitectura', 'quinto', '20')
-estudiante3 = Estudiante('Ándres', '1004293452', 'negocios internacionales', 'tercer', '19')
+nutricionista = Nutricionista(19, 'Juan', 'CES')
+
 
 #----------------- Print ----------------------#
-print('--------------- Estudiante 1 ---------------')
-estudiante1.mostrarAtributos()
-estudiante1.tiempoEstudio('geometría descriptiva', 2)
+print('--------------- nutricionista ---------------')
+nutricionista.mostrarAtributos()
 
-print('--------------- Estudiante 2 ---------------')
-estudiante2.mostrarAtributos()
-estudiante2.tiempoEstudio('análisis y diseño de estructuras', 3)
 
-print('--------------- Estudiante 3 ---------------')
-estudiante3.mostrarAtributos()
-estudiante3.tiempoEstudio('Microeconomía', 2)
 
