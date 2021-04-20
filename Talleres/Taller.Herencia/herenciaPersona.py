@@ -49,3 +49,5 @@ persona2.hablar('Hoy no estoy muy bien, pero sigo de pie')
 print('--------------- persona 3 ---------------')
 persona3.mostrarAtributos()
 persona3.hablar('Hoy es un día más, sere feliz')
+
+#------------------- PUNTO 2 ------------------#
