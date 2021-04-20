@@ -19,3 +19,14 @@ class Canguro ():
         self.edad = edadEntrada
         self.id = idEntrada
         self.nombre = nombreEntrada
+
+    def mostrarAtributos (self):
+        print(f''' En australia se encuentra localizado un canguro
+        llamado {self.nombre} de tan solo {self.edad} años de
+        edad. Este animal esta en manos de la policia con el 
+        ID  número {self.id}
+        ''')
+
+canguro = Canguro(10, 206, 'Camilo' )
+
+canguro.mostrarAtributos()
