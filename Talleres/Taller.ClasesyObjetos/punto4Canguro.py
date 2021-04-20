@@ -35,6 +35,7 @@ class Canguro ():
 canguro = Canguro(10, 206, 'Camilo' )
 
 canguro.mostrarAtributos()
+canguro.saltosCanguro(5)
 #-------------------------------------------#
 
 
