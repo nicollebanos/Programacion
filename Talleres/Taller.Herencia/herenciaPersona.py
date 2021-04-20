@@ -59,7 +59,7 @@ persona3.hablar('Hoy es un día más, sere feliz')
 
 class Doctor(Persona):
     def __init__(self, cardiologiaEntrada, endocrinologiaEntrada, pediadriaEntrada, neurologiaEntrada, psiquiatriaEntrada):
-        Humano.__init__(self,cardiologiaEntrada, endocrinologiaEntrada, pediadriaEntrada, neurologiaEntrada, psiquiatriaEntrada)
+        Persona.__init__(self,cardiologiaEntrada, endocrinologiaEntrada, pediadriaEntrada, neurologiaEntrada, psiquiatriaEntrada)
         self.cardiologia = cardiologiaEntrada
         self.endocrinologia = endocrinologiaEntrada
         self.pediatria = pediadriaEntrada
