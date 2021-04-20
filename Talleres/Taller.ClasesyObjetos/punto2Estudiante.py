@@ -13,8 +13,6 @@ class Estudiante ():
     carreraEntrada: Hace referencia a la carrera del estudiante
     semestreEntrada: Hace referencia el semestre en el que cursa el estudiante
     El estudiante presenta las siguentes aciones:
-    *Estudio(accion):
-        Descibre el tiempo de estudio del estudiante
     '''
 
     def __init__(self,nombreEntrada, idEntrada, carreraEntrada, semestreEntrada, edadEntrada):
