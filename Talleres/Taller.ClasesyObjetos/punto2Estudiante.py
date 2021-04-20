@@ -29,7 +29,7 @@ class Estudiante ():
         print(f''' Buenas tardes, mi nombre es {self.nombre}, identificado
         con el ID {self.id}. Actualmente curso {self.semestre} 
         semetre de {self.carrera} y me siento dichos@ al poder decir
-        que aMo mi carrera
+        que elegi bien mi carrera de vida
     ''')
 
 estudiante1 = Estudiante('Gabriela', '1002394756', 'diseño de modas', 'primer')
