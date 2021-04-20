@@ -32,6 +32,12 @@ class Persona ():
 
     def hablar(self,mensaje):
         print(f'Tengo un mensaje que decir...', mensaje)
+    
+    def caminar(self, pasos):
+        for i in range (pasos):
+            print(f''' Como caminar ayuda a despejar la mente, 
+            el día de hoy he dado {i + 1} pasos
+            ''')
 
 
 persona1 = Persona('Camilo', 18, 1003293645)
@@ -41,14 +47,17 @@ persona3 = Persona('Marlon', 28, 1002384512)
 print('--------------- persona 1 ---------------')
 persona1.mostrarAtributos()
 persona1.hablar('Hoy me siento muy feliz')
+persona1.caminar(5)
 
 print('--------------- persona 2 ---------------')
 persona2.mostrarAtributos()
 persona2.hablar('Hoy no estoy muy bien, pero sigo de pie')
+persona2.caminar(3)
 
 print('--------------- persona 3 ---------------')
 persona3.mostrarAtributos()
 persona3.hablar('Hoy es un día más, sere feliz')
+persona3.caminar(9)
 
 print('#------------------- PUNTO 2 ------------------#')
 #Herede la clase persona y cree la clase Doctor el 
@@ -71,4 +80,13 @@ class Doctor (Persona):
 doctor = Doctor('Jose', 199238, 50, 'Dermatologia')
 
 doctor.tratamiento('Acne')
+
+print('#------------------- PUNTO 3 ------------------#')
+# Herede la clase Persona y cree la clase Nutricionista y 
+# cree un atributo que se refiera a la 
+# universidad en la que fue egresado. 
+# También una función que devuelva el IMC dado el 
+# peso y altura de un paciente
+
+
 
