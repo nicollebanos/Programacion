@@ -22,7 +22,7 @@ class Estudiante ():
         self.nombre = nombreEntrada
         self.id = idEntrada
         self.carrera = carreraEntrada
-        self.semestre = semestreEntrada 
+        self.semestre = semestreEntrada  
 
 
     def mostrarAtributos (self):
