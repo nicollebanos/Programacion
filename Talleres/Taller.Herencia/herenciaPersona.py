@@ -35,7 +35,7 @@ class Persona ():
     
     def caminar(self, pasos):
         for i in range (pasos):
-            print(f''' Como caminar ayuda a despejar la mente, 
+            print(f'''Como caminar ayuda a despejar la mente, 
             el día de hoy he dado {i + 1} pasos
             ''')
 
@@ -56,7 +56,7 @@ persona2.caminar(3)
 
 print('--------------- persona 3 ---------------')
 persona3.mostrarAtributos()
-persona3.hablar('Hoy es un día más, sere feliz')
+persona3.hablar('Hoy es un día más')
 persona3.caminar(9)
 
 print('#------------------- PUNTO 2 ------------------#')
@@ -131,6 +131,6 @@ class Abogado(Persona):
 
 
 abogado = Abogado('Hugo', 188273647, 50, 'derecho penal', 'Universidad Externado de Colombia')
-abogado.representaciónCliente('Carlos', 'abuso a menor de edad')
+abogado.representaciónCliente('abuso a menor de edad', 'Carlos')
 
 
