@@ -1,5 +1,5 @@
 
-#------------------- PUNTO 1 ------------------#
+print( '#------------------- PUNTO 1 ------------------#' )
 #Cree la clase Persona con id, nombre, edad y cree 
 #la función hablar la cual dado mensaje 
 #se muestra en pantalla y cree la clase caminar 
@@ -50,8 +50,8 @@ print('--------------- persona 3 ---------------')
 persona3.mostrarAtributos()
 persona3.hablar('Hoy es un día más, sere feliz')
 
-#------------------- PUNTO 2 ------------------#
-#Herede la clase Persona y cree la clase Doctor el 
+print('#------------------- PUNTO 2 ------------------#')
+#Herede la clase persona y cree la clase Doctor el 
 #cual tendrá el nuevo atributo de especialidad y 
 #podrá ejecutar una nueva función, la cual es dado 
 #una enfermedad muestre en pantalla: procedo a tratar
@@ -59,7 +59,7 @@ persona3.hablar('Hoy es un día más, sere feliz')
 
 class Doctor (Persona):
     def __init__(self, nombreEntrada, idEntrada, edadEntrada, especialidadEntreda):
-        Persona.__init__(self, nombreEntrada, idEntrada. edadEntrada)
+        Persona.__init__(self, nombreEntrada, idEntrada, edadEntrada)
         self.especialidad = especialidadEntreda
 
     def tratamiento (self, enfermedad):
