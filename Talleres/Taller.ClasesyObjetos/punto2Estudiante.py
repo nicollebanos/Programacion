@@ -26,7 +26,7 @@ class Estudiante ():
     def mostrarAtributos (self):
         print(f''' Buenas tardes, mi nombre es {self.nombre} y tengo {self.edad}, 
         identificado con el ID {self.id}. Actualmente curso {self.semestre} 
-        semetre de {self.carrera} y me siento dichos@ al poder decir
+        semestre de {self.carrera} y me siento dichos@ al poder decir
         que elegi bien mi carrera de vida
     ''')
 
