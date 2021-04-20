@@ -57,11 +57,18 @@ persona3.hablar('Hoy es un día más, sere feliz')
 #una enfermedad muestre en pantalla: procedo a tratar
 #dicha enfermedad
 
-class Doctor(Persona):
-    def __init__(self, cardiologiaEntrada, endocrinologiaEntrada, pediadriaEntrada, neurologiaEntrada, psiquiatriaEntrada):
-        self.cardiologia = cardiologiaEntrada
-        self.endocrinologia = endocrinologiaEntrada
-        self.pediatria = pediadriaEntrada
-        self.neurologia = neurologiaEntrada
-        self.psiquiatria = psiquiatriaEntrada  
+class Doctor (Persona):
+    def __init__(self, nombreEntrada, idEntrada, edadEntrada, especialidadEntreda):
+        Persona.__init__(self, nombreEntrada, idEntrada. edadEntrada)
+        self.especialidad = especialidadEntreda
+
+    def tratamiento (self, enfermedad):
+        print(f'''Hola soy {self.nombre} y mi especialidad 
+        es {self.especialidad} y te ayudare a tratar 
+        tu {enfermedad}
+        ''')
+
+doctor = Doctor('Jose', 199238, 50, 'Dermatologia')
+
+doctor.tratamiento('Acne')
 
