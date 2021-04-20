@@ -27,13 +27,16 @@ class Canguro ():
         ID  número {self.id}
         ''')
 
-    def saltosCanguro (self, saltosEntrada):
-        self.saltos = saltosEntrada
-        for iteracion in range():
-            print('El canguroha dado', iteracion, 'salto')
+    def saltosCanguro(self, saltosEntrada):
+        for i in range (saltosEntrada):
+            print(f'El canguro {self.nombre} ha dado {i + 1} salto')
 
-
+#-------------------------------------------#
 canguro = Canguro(10, 206, 'Camilo' )
 
 canguro.mostrarAtributos()
-canguro.saltosCanguro(5)
+#-------------------------------------------#
+
+
+
+
