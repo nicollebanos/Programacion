@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 pieLabels = ['python', 'java', 'dart', 'js',]
 
 #Sizes los tamaños de cada porción de la torta
-sizes = [50,25,15,10]
+sizes = [40,25,25,10]
 
 #Explode: Que tan alejado del origen esta la torta
 pieExplode = [0,0,0.1,0]
