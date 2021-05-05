@@ -8,9 +8,9 @@ print(muestras)
 voltaje = list(ecgData['valor'].values())
 print(voltaje[-10:])
 plt.plot(muestras, voltaje)
-plt.show()
-plt.savefig('GraficoEncefalograma.png')
-
 plt.title('Encefalograma')
 plt.xlabel('Muestra')
 plt.ylabel('valor(mV)')
+plt.show()
+plt.savefig('GraficoEncefalograma.png')
+
