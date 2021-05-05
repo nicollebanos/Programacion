@@ -9,3 +9,8 @@ voltaje = list(ecgData['valor'].values())
 print(voltaje[-10:])
 plt.plot(muestras, voltaje)
 plt.show()
+plt.savefig('Grafico.png')
+
+plt.title('')
+plt.xlabel('Muestra')
+plt.ylabel('valor(mV)')
