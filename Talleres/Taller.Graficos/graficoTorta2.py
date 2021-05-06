@@ -13,17 +13,12 @@ def etiquetarElementosPorcentuales(sizes, labels, indicador= ' ->'):
     for elemento in sizes :
         acumulador += elemento
     for i in range (len(labels)):
-        porcentaje = round(sizes[i]/acumulador*, 2)
+        porcentaje = round(sizes[i]/acumulador*100, 2)
         pieLabels[i] += indicador+str(porcentaje) +'Millones de habitantes'
 
 etiquetarElementosPorcentuales(sizes, pieLabels, '-')
 
-plt.pie(sizes,labels=pieLabels, 
-        explode=pieExplode, 
-        shadow= True, 
-        counterclock = True, 
-        startangle= 45)
-
+plt.pie(sizes,labels=pieLabels, explode=pieExplode, shadow= True, counterclock = True, startangle= 45)
 plt.title('Las 5 ciudades más grandes de Colombia')
 plt.savefig('GraficoCortaCiudades.png')
 plt.show()
