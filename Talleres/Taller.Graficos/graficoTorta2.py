@@ -12,7 +12,6 @@ def etiquetarElementosPorcentuales(sizes, labels, indicador= ' ->'):
     acumulador = 0
     for elemento in sizes :
         acumulador += elemento
-    
     for i in range (len(labels)):
         porcentaje = round(sizes[i]/acumulador*, 2)
         pieLabels[i] += indicador+str(porcentaje) +'Millones de habitantes'
