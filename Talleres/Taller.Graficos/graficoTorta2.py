@@ -3,7 +3,7 @@
 # las cinco ciudades de Colombia debes sobresalir 
 # la ciudad más grande.
 
-import matplotlib as plt 
+import matplotlib.pyplot as plt 
 pieLabels = ['Medellín', 'Bogota', 'Cali', 'Barranquilla', 'Cartagena']
 sizes = [2.5 ,10.4, 2.4, 1.2, 1] #tamaño de las porciones
 pieExplode = [0, 0.1, 0, 0, 0] #alejamineto del origen
@@ -20,5 +20,5 @@ etiquetarElementosPorcentuales(sizes, pieLabels, '-')
 
 plt.pie(sizes,labels=pieLabels, explode=pieExplode, shadow= True, counterclock = True, startangle= 45)
 plt.title('Las 5 ciudades más grandes de Colombia')
-plt.savefig('GraficoCortaCiudades.png')
+plt.savefig('GraficoTortaCiudades.png')
 plt.show()
