@@ -5,7 +5,7 @@
 # un archivo png)
 
 import matplotlib.pyplot as plt
-PREGUNTA_SNACK_FAV = 'Ingrese sus 5 snack favoritos: '
+PREGUNTA_SNACK_FAV = 'Ingrese un snack favorito: '
 PREGUNTA_PRECIOS = 'Ingrese los precios: '
 snacksFav = []
 precios = []
