@@ -6,9 +6,17 @@
 # en un archivo png)
 
 import matplotlib.pyplot as plt 
-pieLabels = ['Medellín', 'Bogota', 'Cali', 'Barranquilla', 'Cartagena']
-sizes = [2.5 ,10.4, 2.4, 1.2, 1] #tamaño de las porciones
-pieExplode = [0, 0.1, 0, 0, 0] #alejamineto del origen
+PREGUNTA_CIUDADES_FAV = 'Ingrese su ciudad fav del mundo: '
+PREGUNTA_POBLACION = 'Ingrese el número de población: '
+pieLabels = []
+sizes = []
+for i in range (5):
+    ciudad = input(PREGUNTA_CIUDADES_FAV)
+    pieLabels.append(ciudad)
+    poblacioon = float(input(PREGUNTA_POBLACION))
+    sizes.append(poblacioon)
+
+pieExplode = [0, 0, 0, 0, 0] #alejamineto del origen
 
 def etiquetarElementosPorcentuales(sizes, labels, indicador= ' ->'):
     acumulador = 0
@@ -21,6 +29,6 @@ def etiquetarElementosPorcentuales(sizes, labels, indicador= ' ->'):
 etiquetarElementosPorcentuales(sizes, pieLabels, '-')
 
 plt.pie(sizes,labels=pieLabels, explode=pieExplode, shadow= True, counterclock = True, startangle= 45)
-plt.title('Las 5 ciudades más grandes de Colombia')
+plt.title('Ciudades favoritas')
 plt.savefig('GraficoTortaCiudades.png')
 plt.show()
