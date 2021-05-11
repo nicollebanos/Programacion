@@ -16,7 +16,11 @@ for i in range (5):
     poblacioon = float(input(PREGUNTA_POBLACION))
     sizes.append(poblacioon)
 
+print(sizes)
+maximo = sizes.index(max(sizes))
 pieExplode = [0, 0, 0, 0, 0] 
+
+pieExplode[maximo] = 0.1
 
 def etiquetarElementosPorcentuales(sizes, labels, indicador= ' ->'):
     acumulador = 0
