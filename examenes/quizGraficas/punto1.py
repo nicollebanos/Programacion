@@ -5,10 +5,17 @@
 # un archivo png)
 
 import matplotlib.pyplot as plt
-snacksFav = ['Doritos', 'DeTodito', 'Trululu', 'jugo Hit', 'Choclitos']
-precio = [3000, 1300, 2500, 3500, 2300]
-plt.bar(snacksFav, precio, width= 0.5, color = 'c')
+PREGUNTA_SNACK_FAV = 'Ingrese sus 5 snack favoritos: '
+PREGUNTA_PRECIOS = 'Ingrese los precios: '
+snacksFav = []
+precios = []
+for i in range (5):
+    snacks = input(PREGUNTA_SNACK_FAV)
+    snacksFav.append(snacks)
+    precio = float(input(PREGUNTA_PRECIOS))
+    precios.append(precio)
 
+plt.bar(snacksFav, precios, width= 0.5, color = 'c')
 plt.title('Snack favoritos')
 plt.xlabel('Precios')
 plt.ylabel('Snacks')
