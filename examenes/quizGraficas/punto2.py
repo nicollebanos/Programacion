@@ -16,7 +16,7 @@ for i in range (5):
     poblacioon = float(input(PREGUNTA_POBLACION))
     sizes.append(poblacioon)
 
-pieExplode = [0, 0, 0, 0, 0] #alejamineto del origen
+pieExplode = [0, 0, 0, 0, 0] 
 
 def etiquetarElementosPorcentuales(sizes, labels, indicador= ' ->'):
     acumulador = 0
@@ -24,7 +24,7 @@ def etiquetarElementosPorcentuales(sizes, labels, indicador= ' ->'):
         acumulador += elemento
     for i in range (len(labels)):
         porcentaje = round(sizes[i]/acumulador*100, 2)
-        pieLabels[i] += indicador+str(porcentaje) +'Millones de habitantes'
+        pieLabels[i] += indicador+str(porcentaje) +' Millones de habitantes '
 
 etiquetarElementosPorcentuales(sizes, pieLabels, '-')
 
