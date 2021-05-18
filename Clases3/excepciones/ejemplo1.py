@@ -43,3 +43,10 @@ while(isCorrectInfo == False):
         print('Los menores de edad no puede acceder')
     except ValueError:
         print('Las edades son números enteros')
+
+lista = [2, 34, 23, 4]
+try: 
+    lista[5]
+except:
+    print('El indice es mayor al tamaño de la lista')
+
