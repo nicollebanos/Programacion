@@ -47,6 +47,6 @@ while(isCorrectInfo == False):
 lista = [2, 34, 23, 4]
 try: 
     lista[5]
-except:
+except IndexError:
     print('El indice es mayor al tamaño de la lista')
 
