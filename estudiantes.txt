@@ -1,6 +1,1 @@
 
-
-nombre: Nicolleedad: 20estatura: 1.58
-nombre: Nicolle\eedad: 20\eestatura: 1.58
-nombre: Nicolleedad: 20estatura: 1.58
-nombre:Nicolle edad: 20 estatura: 1.59
