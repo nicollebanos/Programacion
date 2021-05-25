@@ -24,8 +24,8 @@ nameFile = "mantenimientos.txt"
 isValidate = validarArchivo(nameFile, 'Seguimiento de mantenimiento de equipos medicos')
 if (isValidate):
     descEquipo = input('Ingrese la descripción del equipo : ')
-    nombre = validateString('Ingrese su nombre :')
-    precio = validateFloat('Ingrese el precio : ')
+    nombre = validateString('Ingrese su nombre: ')
+    precio = validateFloat('Ingrese el precio:  ')
     linea ='\nDescripcion465'+ descEquipo+ ' nombre técnico: ' + nombre + ' precio acordado: '+ str(precio)
     guardarLinea(nameFile, linea)
 else:
