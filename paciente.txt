@@ -1,3 +1,2 @@
-Archivo del paciente de neurología
-nombre:Nicolle edad: Hipotiroidismo estatura: 32500
-nombre:nicolle edad: hipotiroidismo estatura: 32500
+
+nombre:Nicolle enfermedad: Hipotiroidismo precio: 32500
