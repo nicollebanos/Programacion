@@ -23,7 +23,7 @@ except FileNotFoundError:
     sys.exit(1)
 
 archivo = open(NOMBRE_ARCHIVO,'a')
-linea = "\nnombre:"+ nombre + " edad: "+ str(enfermedad) + " estatura: "+ str(precio)
+linea = "\nnombre:"+ nombre + " enfermedad: "+ str(enfermedad) + " precio: "+ str(precio)
 archivo.writelines(linea)
 archivo.close()
 
