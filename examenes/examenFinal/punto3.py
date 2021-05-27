@@ -17,12 +17,14 @@ isCorrectInfo = False
 while(isCorrectInfo == False):
     try: 
         dolares = float(input('Ingrese tu dinero en dolares: '))
+        euro = dolares * 0.82
+        print(f'''Hola mi nombre es {nombre} y tengo
+        {euro} euros
+    ''')
         isCorrectInfo = True
     except ValueError:
         print('Verifica bien, has ingresado un valor no valido')
 
-euro = []
-for elemento in dolares:
-    conversor = round (elemento*0.82,2)
-    dolares.append(conversor)
+
+
 
