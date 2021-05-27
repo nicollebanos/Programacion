@@ -1,3 +1,4 @@
 
 
 nombre:nico edad: 30 estatura: 1.69
+nombre:nico edad: 20 estatura: 1.57
