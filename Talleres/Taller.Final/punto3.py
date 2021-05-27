@@ -6,6 +6,8 @@
 # acordado para el mantenimiento (se deben almacenar estos datos nuevos en 
 # el archivo mantenimientos.txt)
 
+import sys
+
 def validarArchivo(nombreArchivo, descripcion):
     try:
         archivo = open(nombreArchivo)
