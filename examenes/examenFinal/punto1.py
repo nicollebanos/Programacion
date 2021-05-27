@@ -4,8 +4,8 @@
 # gráfico y a sus ejes también recuerde guardar el resultado en un archivo png)
 
 import matplotlib.pyplot as plt
-PREGUNTA_ALIMEN_FAV = 'Ingrese un alimento favorito: '
-PREGUNTA_PRECIOS = 'Ingrese los precios: '
+PREGUNTA_ALIMEN_FAV = 'Ingrese su alimento favorito: '
+PREGUNTA_PRECIOS = 'Ingrese el precio: '
 alimenFav = []
 precios = []
 for i in range (8):
