@@ -51,7 +51,7 @@ class Doctor(Humano):
         Tú IMC es de... {imc}
         ''')
 
-doctor = Doctor('Andrés')
+doctor = Doctor('Andrés', 'hombre', 45)
 doctor.mostrarAtributos
 doctor.calcularIMC(humano.nombre)
 doctor.masaCorporal(58, 1.64)
