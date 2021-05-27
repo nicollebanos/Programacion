@@ -13,7 +13,6 @@ class Humano ():
     '''
 
     def __init__(self, nombreEntrada, sexoEntrada, edadEntrada):
-        print("Datos usuario")
         self.nombre = nombreEntrada
         self.sexo = sexoEntrada
         self.edad = edadEntrada
@@ -35,18 +34,17 @@ humano = Humano('Andrea', 'mujer', '19')
 humano.mostrarAtributos()
 
 class Doctor(Humano):
-    def calcularIMC(self,nombreDoctor):
-        print(f'''Hola señora {self.nombre}, mi nombre es
-        {nombreDoctor} y el día de hoy soy el encargado para
-        calcular su IMC, por lo cual me digilenciara los
-        siguentes datos.
+    def calcularIMC(self,nombreF):
+        print(f'''Hola señora {nombreF}, mi nombre es
+        {self.nombre} y el día de hoy soy el encargado para
+        calcular su IMC.
     ''')
 
     def masaCorporal (self, pesoEntrada, alturaEntrada):
         self.peso = pesoEntrada
         self.altura = alturaEntrada
         imc = self.peso / (self.altura**2)
-        print(f''' Como tu doctor encargado, teniendo presente que
+        print(f''' Como su doctor encargado, teniendo presente que
         pesas {self.peso} kg y mides {self.altura} m...
         Tú IMC es de... {imc}
         ''')
