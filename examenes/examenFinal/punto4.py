@@ -17,13 +17,13 @@ try:
     print('I')
 except FileNotFoundError: 
     archivo = open (NOMBRE_ARCHIVO, 'w', encoding='UTF-8')
-    descripcion = 'Archivo del paciente de neurología'
+    descripcion = 'Archivo del paciente de neurologia'
     print('II')
     archivo.writelines(descripcion)
     sys.exit(1)
 
 archivo = open(NOMBRE_ARCHIVO,'a')
-linea = "\nnombre:" + nombre + " edad: "+ str(enfermedad) + " estatura: "+ str(precio)
+linea = "\nnombre:"+ nombre + " edad: "+ str(enfermedad) + " estatura: "+ str(precio)
 archivo.writelines(linea)
 archivo.close()
 

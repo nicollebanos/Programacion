@@ -1,1 +1,2 @@
 Archivo del paciente de neurología
+nombre:Nicolle edad: Hipotiroidismo estatura: 32500
